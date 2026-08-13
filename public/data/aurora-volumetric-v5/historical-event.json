@@ -1,0 +1,2940 @@
+{
+  "schema": "world-earth.aurora-volumetric-event.v1",
+  "eventId": "nasa-viirs-2025-11-12-north",
+  "mode": "HISTORICAL_OBSERVATION",
+  "hemisphere": "north",
+  "eventStrength": "strong",
+  "source": {
+    "agency": "NASA Scientific Visualization Studio",
+    "product": "VIIRS/JPSS1 Day/Night Band 6-Min L1B Swath 750 m mosaic",
+    "dataset": "VJ102DNB.021",
+    "observationDate": "2025-11-12",
+    "sourceUrl": "https://svs.gsfc.nasa.gov/vis/a030000/a031300/a031374/VJ102DNB.mosaic.A2025316_DNB_vert_plain_1080.png",
+    "sourcePage": "https://svs.gsfc.nasa.gov/31374/",
+    "sourceSha256": "7fe13a7e8aa0982ddd0f06974470b9de7f59e24c2989e7f1afea62f21dee8523",
+    "spatialClass": "FACT_OBSERVED_SENSOR",
+    "note": "Observed visible-band radiance mosaic. Extracted oval geometry is a reproducible interpretation and remains INFERENCE."
+  },
+  "registration": {
+    "projection": "NASA polar mosaic, orthographic disc approximation",
+    "centerPixel": [
+      540,
+      960
+    ],
+    "earthDiscRadiusPx": 960,
+    "downRayLongitudeDeg": -90,
+    "manualLongitudeOffsetDeg": 0
+  },
+  "magneticField": {
+    "model": "WMM2025 centered dipole",
+    "geomagneticNorthPole": {
+      "latitude": 80.85,
+      "longitude": -72.76
+    },
+    "source": "https://www.ncei.noaa.gov/products/wandering-geomagnetic-poles",
+    "spatialClass": "PHYSICS_MODEL"
+  },
+  "reconstruction": {
+    "class": "INFERENCE_PHYSICS_BOUNDED",
+    "sourceProfileSha256": "a64d5fd2eef8c221190fd52325dcb3980af44a6f84139680a70b1fc70adae91f",
+    "greenAltitudeKm": [
+      100,
+      250
+    ],
+    "redAltitudeKm": [
+      200,
+      500
+    ],
+    "mobileSlices": {
+      "green": 10,
+      "red": 7
+    },
+    "desktopSlices": {
+      "green": 18,
+      "red": 12
+    },
+    "statement": "Altitude density is inferred from registered observed energy; no geographic light is added."
+  },
+  "sectors": [
+    {
+      "longitude": -90,
+      "latitude": 64.0908075822283,
+      "energy": 0.39772,
+      "width": 7.6,
+      "confidence": 0.76318,
+      "phase": 0
+    },
+    {
+      "longitude": -89,
+      "latitude": 64.12725037807077,
+      "energy": 0.37705,
+      "width": 7.338,
+      "confidence": 0.75574,
+      "phase": 0.618034
+    },
+    {
+      "longitude": -88,
+      "latitude": 64.17096690088174,
+      "energy": 0.3551,
+      "width": 6.989,
+      "confidence": 0.74784,
+      "phase": 0.236068
+    },
+    {
+      "longitude": -87,
+      "latitude": 64.22258018615915,
+      "energy": 0.33384,
+      "width": 6.602,
+      "confidence": 0.74018,
+      "phase": 0.854102
+    },
+    {
+      "longitude": -86,
+      "latitude": 64.28043029269398,
+      "energy": 0.32625,
+      "width": 6.953,
+      "confidence": 0.73745,
+      "phase": 0.472136
+    },
+    {
+      "longitude": -85,
+      "latitude": 64.34140451547262,
+      "energy": 0.32636,
+      "width": 7.383,
+      "confidence": 0.73749,
+      "phase": 0.09017
+    },
+    {
+      "longitude": -84,
+      "latitude": 64.40031180099693,
+      "energy": 0.31645,
+      "width": 7.109,
+      "confidence": 0.73392,
+      "phase": 0.708204
+    },
+    {
+      "longitude": -83,
+      "latitude": 64.45109906394569,
+      "energy": 0.30178,
+      "width": 6.944,
+      "confidence": 0.72864,
+      "phase": 0.326238
+    },
+    {
+      "longitude": -82,
+      "latitude": 64.48777075403311,
+      "energy": 0.28667,
+      "width": 6.863,
+      "confidence": 0.7232,
+      "phase": 0.944272
+    },
+    {
+      "longitude": -81,
+      "latitude": 64.5037051559562,
+      "energy": 0.27434,
+      "width": 6.417,
+      "confidence": 0.71876,
+      "phase": 0.562306
+    },
+    {
+      "longitude": -80,
+      "latitude": 64.49251739271926,
+      "energy": 0.27652,
+      "width": 6.275,
+      "confidence": 0.71955,
+      "phase": 0.18034
+    },
+    {
+      "longitude": -79,
+      "latitude": 64.44775590829803,
+      "energy": 0.29734,
+      "width": 6.728,
+      "confidence": 0.72704,
+      "phase": 0.798374
+    },
+    {
+      "longitude": -78,
+      "latitude": 64.37214659225484,
+      "energy": 0.32045,
+      "width": 7.039,
+      "confidence": 0.73536,
+      "phase": 0.416408
+    },
+    {
+      "longitude": -77,
+      "latitude": 64.273491707623,
+      "energy": 0.33178,
+      "width": 7.535,
+      "confidence": 0.73944,
+      "phase": 0.034442
+    },
+    {
+      "longitude": -76,
+      "latitude": 64.16445902003989,
+      "energy": 0.32321,
+      "width": 7.477,
+      "confidence": 0.73636,
+      "phase": 0.652476
+    },
+    {
+      "longitude": -75,
+      "latitude": 64.05882582788804,
+      "energy": 0.29098,
+      "width": 7.198,
+      "confidence": 0.72475,
+      "phase": 0.27051
+    },
+    {
+      "longitude": -74,
+      "latitude": 63.97041765752075,
+      "energy": 0.23921,
+      "width": 6.685,
+      "confidence": 0.70612,
+      "phase": 0.888544
+    },
+    {
+      "longitude": -73,
+      "latitude": 63.91329138703655,
+      "energy": 0.17859,
+      "width": 6.106,
+      "confidence": 0.68429,
+      "phase": 0.506578
+    },
+    {
+      "longitude": -72,
+      "latitude": 63.901366290362745,
+      "energy": 0.12401,
+      "width": 6.941,
+      "confidence": 0.66464,
+      "phase": 0.124612
+    },
+    {
+      "longitude": -71,
+      "latitude": 63.9485728239044,
+      "energy": 0.07621,
+      "width": 6.584,
+      "confidence": 0.64744,
+      "phase": 0.742646
+    },
+    {
+      "longitude": -70,
+      "latitude": 64.05552022762998,
+      "energy": 0.03982,
+      "width": 6.466,
+      "confidence": 0.63434,
+      "phase": 0.36068
+    },
+    {
+      "longitude": -69,
+      "latitude": 64.21607513961055,
+      "energy": 0.01586,
+      "width": 5.744,
+      "confidence": 0.62571,
+      "phase": 0.978714
+    },
+    {
+      "longitude": -68,
+      "latitude": 64.41766330825548,
+      "energy": 0.00674,
+      "width": 5.641,
+      "confidence": 0.62243,
+      "phase": 0.596748
+    },
+    {
+      "longitude": -67,
+      "latitude": 64.64682644460358,
+      "energy": 0.00494,
+      "width": 5.746,
+      "confidence": 0.62178,
+      "phase": 0.214782
+    },
+    {
+      "longitude": -66,
+      "latitude": 64.89008787426904,
+      "energy": 0.01193,
+      "width": 6.007,
+      "confidence": 0.62429,
+      "phase": 0.832816
+    },
+    {
+      "longitude": -65,
+      "latitude": 65.13445617233016,
+      "energy": 0.02598,
+      "width": 6.134,
+      "confidence": 0.62935,
+      "phase": 0.45085
+    },
+    {
+      "longitude": -64,
+      "latitude": 65.36843645016836,
+      "energy": 0.04492,
+      "width": 5.989,
+      "confidence": 0.63617,
+      "phase": 0.068884
+    },
+    {
+      "longitude": -63,
+      "latitude": 65.5819139778887,
+      "energy": 0.06389,
+      "width": 5.792,
+      "confidence": 0.643,
+      "phase": 0.686918
+    },
+    {
+      "longitude": -62,
+      "latitude": 65.7745167214042,
+      "energy": 0.08425,
+      "width": 5.885,
+      "confidence": 0.65033,
+      "phase": 0.304952
+    },
+    {
+      "longitude": -61,
+      "latitude": 65.95098514883315,
+      "energy": 0.10512,
+      "width": 6.315,
+      "confidence": 0.65784,
+      "phase": 0.922986
+    },
+    {
+      "longitude": -60,
+      "latitude": 66.12075780585202,
+      "energy": 0.11935,
+      "width": 6.511,
+      "confidence": 0.66297,
+      "phase": 0.54102
+    },
+    {
+      "longitude": -59,
+      "latitude": 66.29446162249809,
+      "energy": 0.12558,
+      "width": 6.194,
+      "confidence": 0.66521,
+      "phase": 0.159054
+    },
+    {
+      "longitude": -58,
+      "latitude": 66.48371508365415,
+      "energy": 0.13036,
+      "width": 5.917,
+      "confidence": 0.66693,
+      "phase": 0.777088
+    },
+    {
+      "longitude": -57,
+      "latitude": 66.70035225383522,
+      "energy": 0.13616,
+      "width": 5.876,
+      "confidence": 0.66902,
+      "phase": 0.395122
+    },
+    {
+      "longitude": -56,
+      "latitude": 66.9526033233735,
+      "energy": 0.14159,
+      "width": 5.819,
+      "confidence": 0.67097,
+      "phase": 0.013156
+    },
+    {
+      "longitude": -55,
+      "latitude": 67.24529734747642,
+      "energy": 0.14976,
+      "width": 5.981,
+      "confidence": 0.67391,
+      "phase": 0.63119
+    },
+    {
+      "longitude": -54,
+      "latitude": 67.577944800936,
+      "energy": 0.15918,
+      "width": 6.238,
+      "confidence": 0.6773,
+      "phase": 0.249224
+    },
+    {
+      "longitude": -53,
+      "latitude": 67.94616549012586,
+      "energy": 0.16449,
+      "width": 6.228,
+      "confidence": 0.67922,
+      "phase": 0.867258
+    },
+    {
+      "longitude": -52,
+      "latitude": 68.34127669682738,
+      "energy": 0.16597,
+      "width": 5.978,
+      "confidence": 0.67975,
+      "phase": 0.485292
+    },
+    {
+      "longitude": -51,
+      "latitude": 68.75111558966934,
+      "energy": 0.16995,
+      "width": 5.668,
+      "confidence": 0.68118,
+      "phase": 0.103326
+    },
+    {
+      "longitude": -50,
+      "latitude": 69.15977087423568,
+      "energy": 0.18041,
+      "width": 5.313,
+      "confidence": 0.68495,
+      "phase": 0.72136
+    },
+    {
+      "longitude": -49,
+      "latitude": 69.54809935975558,
+      "energy": 0.19857,
+      "width": 5.446,
+      "confidence": 0.69149,
+      "phase": 0.339394
+    },
+    {
+      "longitude": -48,
+      "latitude": 69.89933132745797,
+      "energy": 0.22012,
+      "width": 5.727,
+      "confidence": 0.69924,
+      "phase": 0.957428
+    },
+    {
+      "longitude": -47,
+      "latitude": 70.19872545273745,
+      "energy": 0.23728,
+      "width": 5.905,
+      "confidence": 0.70542,
+      "phase": 0.575462
+    },
+    {
+      "longitude": -46,
+      "latitude": 70.43359521765741,
+      "energy": 0.24207,
+      "width": 5.961,
+      "confidence": 0.70715,
+      "phase": 0.193496
+    },
+    {
+      "longitude": -45,
+      "latitude": 70.5930128922036,
+      "energy": 0.23035,
+      "width": 5.834,
+      "confidence": 0.70293,
+      "phase": 0.811529
+    },
+    {
+      "longitude": -44,
+      "latitude": 70.6711807118844,
+      "energy": 0.20396,
+      "width": 5.613,
+      "confidence": 0.69343,
+      "phase": 0.429563
+    },
+    {
+      "longitude": -43,
+      "latitude": 70.66742840056781,
+      "energy": 0.16795,
+      "width": 5.41,
+      "confidence": 0.68046,
+      "phase": 0.047597
+    },
+    {
+      "longitude": -42,
+      "latitude": 70.58652424986914,
+      "energy": 0.13229,
+      "width": 5.213,
+      "confidence": 0.66762,
+      "phase": 0.665631
+    },
+    {
+      "longitude": -41,
+      "latitude": 70.43869827603417,
+      "energy": 0.10628,
+      "width": 5.148,
+      "confidence": 0.65826,
+      "phase": 0.283665
+    },
+    {
+      "longitude": -40,
+      "latitude": 70.2360751176022,
+      "energy": 0.09606,
+      "width": 5.201,
+      "confidence": 0.65458,
+      "phase": 0.901699
+    },
+    {
+      "longitude": -39,
+      "latitude": 69.99291236751195,
+      "energy": 0.09825,
+      "width": 5.049,
+      "confidence": 0.65537,
+      "phase": 0.519733
+    },
+    {
+      "longitude": -38,
+      "latitude": 69.72649430434234,
+      "energy": 0.10978,
+      "width": 5.687,
+      "confidence": 0.65952,
+      "phase": 0.137767
+    },
+    {
+      "longitude": -37,
+      "latitude": 69.45742383022063,
+      "energy": 0.12171,
+      "width": 6.015,
+      "confidence": 0.66382,
+      "phase": 0.755801
+    },
+    {
+      "longitude": -36,
+      "latitude": 69.20401192020171,
+      "energy": 0.12606,
+      "width": 6.359,
+      "confidence": 0.66538,
+      "phase": 0.373835
+    },
+    {
+      "longitude": -35,
+      "latitude": 68.9809903933508,
+      "energy": 0.11351,
+      "width": 6.142,
+      "confidence": 0.66086,
+      "phase": 0.991869
+    },
+    {
+      "longitude": -34,
+      "latitude": 68.79932279612251,
+      "energy": 0.09146,
+      "width": 5.782,
+      "confidence": 0.65293,
+      "phase": 0.609903
+    },
+    {
+      "longitude": -33,
+      "latitude": 68.66596412215043,
+      "energy": 0.07305,
+      "width": 5.678,
+      "confidence": 0.6463,
+      "phase": 0.227937
+    },
+    {
+      "longitude": -32,
+      "latitude": 68.58437879230256,
+      "energy": 0.06619,
+      "width": 5.872,
+      "confidence": 0.64383,
+      "phase": 0.845971
+    },
+    {
+      "longitude": -31,
+      "latitude": 68.55441832063919,
+      "energy": 0.06791,
+      "width": 5.739,
+      "confidence": 0.64445,
+      "phase": 0.464005
+    },
+    {
+      "longitude": -30,
+      "latitude": 68.56878884404016,
+      "energy": 0.08228,
+      "width": 5.993,
+      "confidence": 0.64962,
+      "phase": 0.082039
+    },
+    {
+      "longitude": -29,
+      "latitude": 68.61278390928634,
+      "energy": 0.10135,
+      "width": 6.539,
+      "confidence": 0.65649,
+      "phase": 0.700073
+    },
+    {
+      "longitude": -28,
+      "latitude": 68.66821669723602,
+      "energy": 0.10825,
+      "width": 6.598,
+      "confidence": 0.65897,
+      "phase": 0.318107
+    },
+    {
+      "longitude": -27,
+      "latitude": 68.71846829358293,
+      "energy": 0.10148,
+      "width": 5.945,
+      "confidence": 0.65653,
+      "phase": 0.936141
+    },
+    {
+      "longitude": -26,
+      "latitude": 68.74867667404068,
+      "energy": 0.0941,
+      "width": 5.542,
+      "confidence": 0.65388,
+      "phase": 0.554175
+    },
+    {
+      "longitude": -25,
+      "latitude": 68.74586249045137,
+      "energy": 0.09153,
+      "width": 5.392,
+      "confidence": 0.65295,
+      "phase": 0.172209
+    },
+    {
+      "longitude": -24,
+      "latitude": 68.6994676098842,
+      "energy": 0.10119,
+      "width": 5.112,
+      "confidence": 0.65643,
+      "phase": 0.790243
+    },
+    {
+      "longitude": -23,
+      "latitude": 68.60132862533322,
+      "energy": 0.13274,
+      "width": 5.477,
+      "confidence": 0.66779,
+      "phase": 0.408277
+    },
+    {
+      "longitude": -22,
+      "latitude": 68.45073007870033,
+      "energy": 0.1819,
+      "width": 5.67,
+      "confidence": 0.68548,
+      "phase": 0.026311
+    },
+    {
+      "longitude": -21,
+      "latitude": 68.25447307548924,
+      "energy": 0.24024,
+      "width": 5.96,
+      "confidence": 0.70649,
+      "phase": 0.644345
+    },
+    {
+      "longitude": -20,
+      "latitude": 68.02599187971977,
+      "energy": 0.30157,
+      "width": 6.276,
+      "confidence": 0.72857,
+      "phase": 0.262379
+    },
+    {
+      "longitude": -19,
+      "latitude": 67.77797223678897,
+      "energy": 0.35829,
+      "width": 6.526,
+      "confidence": 0.74898,
+      "phase": 0.880413
+    },
+    {
+      "longitude": -18,
+      "latitude": 67.52203884356017,
+      "energy": 0.40423,
+      "width": 6.655,
+      "confidence": 0.76552,
+      "phase": 0.498447
+    },
+    {
+      "longitude": -17,
+      "latitude": 67.26923355948043,
+      "energy": 0.43944,
+      "width": 6.744,
+      "confidence": 0.7782,
+      "phase": 0.116481
+    },
+    {
+      "longitude": -16,
+      "latitude": 67.02972937684461,
+      "energy": 0.46371,
+      "width": 6.719,
+      "confidence": 0.78694,
+      "phase": 0.734515
+    },
+    {
+      "longitude": -15,
+      "latitude": 66.81338909432716,
+      "energy": 0.48079,
+      "width": 6.821,
+      "confidence": 0.79308,
+      "phase": 0.352549
+    },
+    {
+      "longitude": -14,
+      "latitude": 66.62632202186222,
+      "energy": 0.49152,
+      "width": 6.824,
+      "confidence": 0.79695,
+      "phase": 0.970583
+    },
+    {
+      "longitude": -13,
+      "latitude": 66.4718917540644,
+      "energy": 0.49722,
+      "width": 6.754,
+      "confidence": 0.799,
+      "phase": 0.588617
+    },
+    {
+      "longitude": -12,
+      "latitude": 66.35049806932088,
+      "energy": 0.50155,
+      "width": 6.699,
+      "confidence": 0.80056,
+      "phase": 0.206651
+    },
+    {
+      "longitude": -11,
+      "latitude": 66.26433328396583,
+      "energy": 0.50888,
+      "width": 6.9,
+      "confidence": 0.8032,
+      "phase": 0.824685
+    },
+    {
+      "longitude": -10,
+      "latitude": 66.21771851202928,
+      "energy": 0.51808,
+      "width": 6.715,
+      "confidence": 0.80651,
+      "phase": 0.442719
+    },
+    {
+      "longitude": -9,
+      "latitude": 66.21513892839081,
+      "energy": 0.53127,
+      "width": 6.741,
+      "confidence": 0.81126,
+      "phase": 0.060753
+    },
+    {
+      "longitude": -8,
+      "latitude": 66.26099056689277,
+      "energy": 0.54413,
+      "width": 6.893,
+      "confidence": 0.81589,
+      "phase": 0.678787
+    },
+    {
+      "longitude": -7,
+      "latitude": 66.35822864073592,
+      "energy": 0.55175,
+      "width": 7.459,
+      "confidence": 0.81863,
+      "phase": 0.296821
+    },
+    {
+      "longitude": -6,
+      "latitude": 66.50926510587743,
+      "energy": 0.54638,
+      "width": 7.6,
+      "confidence": 0.8167,
+      "phase": 0.914855
+    },
+    {
+      "longitude": -5,
+      "latitude": 66.71296422711079,
+      "energy": 0.52146,
+      "width": 7.586,
+      "confidence": 0.80773,
+      "phase": 0.532889
+    },
+    {
+      "longitude": -4,
+      "latitude": 66.96485905505,
+      "energy": 0.47682,
+      "width": 6.814,
+      "confidence": 0.79166,
+      "phase": 0.150923
+    },
+    {
+      "longitude": -3,
+      "latitude": 67.25638910351049,
+      "energy": 0.42466,
+      "width": 6.208,
+      "confidence": 0.77288,
+      "phase": 0.768957
+    },
+    {
+      "longitude": -2,
+      "latitude": 67.57477645301255,
+      "energy": 0.37487,
+      "width": 6.069,
+      "confidence": 0.75495,
+      "phase": 0.386991
+    },
+    {
+      "longitude": -1,
+      "latitude": 67.90597592786645,
+      "energy": 0.33768,
+      "width": 5.823,
+      "confidence": 0.74156,
+      "phase": 0.005025
+    },
+    {
+      "longitude": 0,
+      "latitude": 68.23272867865782,
+      "energy": 0.32471,
+      "width": 5.681,
+      "confidence": 0.7369,
+      "phase": 0.623059
+    },
+    {
+      "longitude": 1,
+      "latitude": 68.53591301218788,
+      "energy": 0.34058,
+      "width": 5.255,
+      "confidence": 0.74261,
+      "phase": 0.241093
+    },
+    {
+      "longitude": 2,
+      "latitude": 68.79730666234693,
+      "energy": 0.38135,
+      "width": 5.778,
+      "confidence": 0.75729,
+      "phase": 0.859127
+    },
+    {
+      "longitude": 3,
+      "latitude": 69.00337304938913,
+      "energy": 0.43628,
+      "width": 6.262,
+      "confidence": 0.77706,
+      "phase": 0.477161
+    },
+    {
+      "longitude": 4,
+      "latitude": 69.14134106466773,
+      "energy": 0.4956,
+      "width": 6.678,
+      "confidence": 0.79842,
+      "phase": 0.095195
+    },
+    {
+      "longitude": 5,
+      "latitude": 69.20288968631004,
+      "energy": 0.54612,
+      "width": 6.917,
+      "confidence": 0.8166,
+      "phase": 0.713229
+    },
+    {
+      "longitude": 6,
+      "latitude": 69.18409102708245,
+      "energy": 0.57861,
+      "width": 7.021,
+      "confidence": 0.8283,
+      "phase": 0.331263
+    },
+    {
+      "longitude": 7,
+      "latitude": 69.08304307943726,
+      "energy": 0.5876,
+      "width": 7.067,
+      "confidence": 0.83154,
+      "phase": 0.949297
+    },
+    {
+      "longitude": 8,
+      "latitude": 68.90913714108613,
+      "energy": 0.57232,
+      "width": 7.053,
+      "confidence": 0.82604,
+      "phase": 0.567331
+    },
+    {
+      "longitude": 9,
+      "latitude": 68.68234143195627,
+      "energy": 0.53389,
+      "width": 6.69,
+      "confidence": 0.8122,
+      "phase": 0.185365
+    },
+    {
+      "longitude": 10,
+      "latitude": 68.4225283599219,
+      "energy": 0.48757,
+      "width": 6.49,
+      "confidence": 0.79553,
+      "phase": 0.803399
+    },
+    {
+      "longitude": 11,
+      "latitude": 68.14694263007988,
+      "energy": 0.44647,
+      "width": 6.393,
+      "confidence": 0.78073,
+      "phase": 0.421433
+    },
+    {
+      "longitude": 12,
+      "latitude": 67.88592404029264,
+      "energy": 0.41022,
+      "width": 5.887,
+      "confidence": 0.76768,
+      "phase": 0.039467
+    },
+    {
+      "longitude": 13,
+      "latitude": 67.66662924606808,
+      "energy": 0.39045,
+      "width": 5.388,
+      "confidence": 0.76056,
+      "phase": 0.657501
+    },
+    {
+      "longitude": 14,
+      "latitude": 67.51314478466134,
+      "energy": 0.39797,
+      "width": 7.568,
+      "confidence": 0.76327,
+      "phase": 0.275535
+    },
+    {
+      "longitude": 15,
+      "latitude": 67.44784109109136,
+      "energy": 0.41801,
+      "width": 7.6,
+      "confidence": 0.77048,
+      "phase": 0.893569
+    },
+    {
+      "longitude": 16,
+      "latitude": 67.47690031356487,
+      "energy": 0.43732,
+      "width": 5.947,
+      "confidence": 0.77744,
+      "phase": 0.511603
+    },
+    {
+      "longitude": 17,
+      "latitude": 67.59085388927177,
+      "energy": 0.4672,
+      "width": 6.21,
+      "confidence": 0.78819,
+      "phase": 0.129637
+    },
+    {
+      "longitude": 18,
+      "latitude": 67.78071099913495,
+      "energy": 0.5011,
+      "width": 7.6,
+      "confidence": 0.8004,
+      "phase": 0.747671
+    },
+    {
+      "longitude": 19,
+      "latitude": 68.0390955229463,
+      "energy": 0.52643,
+      "width": 6.44,
+      "confidence": 0.80951,
+      "phase": 0.365705
+    },
+    {
+      "longitude": 20,
+      "latitude": 68.33690248130645,
+      "energy": 0.54839,
+      "width": 6.517,
+      "confidence": 0.81742,
+      "phase": 0.983739
+    },
+    {
+      "longitude": 21,
+      "latitude": 68.64831775355916,
+      "energy": 0.56984,
+      "width": 6.941,
+      "confidence": 0.82514,
+      "phase": 0.601773
+    },
+    {
+      "longitude": 22,
+      "latitude": 68.95054833473036,
+      "energy": 0.58035,
+      "width": 7.316,
+      "confidence": 0.82893,
+      "phase": 0.219807
+    },
+    {
+      "longitude": 23,
+      "latitude": 69.22290160486799,
+      "energy": 0.58171,
+      "width": 7.264,
+      "confidence": 0.82942,
+      "phase": 0.837841
+    },
+    {
+      "longitude": 24,
+      "latitude": 69.45630346734227,
+      "energy": 0.58179,
+      "width": 6.907,
+      "confidence": 0.82944,
+      "phase": 0.455875
+    },
+    {
+      "longitude": 25,
+      "latitude": 69.65196278078608,
+      "energy": 0.58674,
+      "width": 6.739,
+      "confidence": 0.83123,
+      "phase": 0.073909
+    },
+    {
+      "longitude": 26,
+      "latitude": 69.81081763641332,
+      "energy": 0.59848,
+      "width": 6.82,
+      "confidence": 0.83545,
+      "phase": 0.691943
+    },
+    {
+      "longitude": 27,
+      "latitude": 69.93293571583021,
+      "energy": 0.6151,
+      "width": 7.392,
+      "confidence": 0.84144,
+      "phase": 0.309977
+    },
+    {
+      "longitude": 28,
+      "latitude": 70.03138030561398,
+      "energy": 0.62471,
+      "width": 7.6,
+      "confidence": 0.8449,
+      "phase": 0.928011
+    },
+    {
+      "longitude": 29,
+      "latitude": 70.11567927797218,
+      "energy": 0.61795,
+      "width": 7.6,
+      "confidence": 0.84246,
+      "phase": 0.546045
+    },
+    {
+      "longitude": 30,
+      "latitude": 70.19212795970009,
+      "energy": 0.59364,
+      "width": 7.554,
+      "confidence": 0.83371,
+      "phase": 0.164079
+    },
+    {
+      "longitude": 31,
+      "latitude": 70.26449959571198,
+      "energy": 0.55762,
+      "width": 6.946,
+      "confidence": 0.82074,
+      "phase": 0.782113
+    },
+    {
+      "longitude": 32,
+      "latitude": 70.3314536293096,
+      "energy": 0.52179,
+      "width": 6.254,
+      "confidence": 0.80784,
+      "phase": 0.400147
+    },
+    {
+      "longitude": 33,
+      "latitude": 70.3893774070385,
+      "energy": 0.50325,
+      "width": 5.727,
+      "confidence": 0.80117,
+      "phase": 0.018181
+    },
+    {
+      "longitude": 34,
+      "latitude": 70.4349869768699,
+      "energy": 0.51051,
+      "width": 6.54,
+      "confidence": 0.80378,
+      "phase": 0.636215
+    },
+    {
+      "longitude": 35,
+      "latitude": 70.46569540773632,
+      "energy": 0.52999,
+      "width": 6.904,
+      "confidence": 0.8108,
+      "phase": 0.254249
+    },
+    {
+      "longitude": 36,
+      "latitude": 70.47784728226026,
+      "energy": 0.55541,
+      "width": 7.257,
+      "confidence": 0.81995,
+      "phase": 0.872283
+    },
+    {
+      "longitude": 37,
+      "latitude": 70.47075106962996,
+      "energy": 0.57794,
+      "width": 7.44,
+      "confidence": 0.82806,
+      "phase": 0.490317
+    },
+    {
+      "longitude": 38,
+      "latitude": 70.4462597837864,
+      "energy": 0.5876,
+      "width": 7.238,
+      "confidence": 0.83154,
+      "phase": 0.108351
+    },
+    {
+      "longitude": 39,
+      "latitude": 70.40770630484039,
+      "energy": 0.58346,
+      "width": 6.361,
+      "confidence": 0.83005,
+      "phase": 0.726385
+    },
+    {
+      "longitude": 40,
+      "latitude": 70.36023247711864,
+      "energy": 0.58187,
+      "width": 6.653,
+      "confidence": 0.82947,
+      "phase": 0.344419
+    },
+    {
+      "longitude": 41,
+      "latitude": 70.30689468844082,
+      "energy": 0.58278,
+      "width": 6.843,
+      "confidence": 0.8298,
+      "phase": 0.962453
+    },
+    {
+      "longitude": 42,
+      "latitude": 70.24870884404868,
+      "energy": 0.58685,
+      "width": 6.741,
+      "confidence": 0.83127,
+      "phase": 0.580487
+    },
+    {
+      "longitude": 43,
+      "latitude": 70.1846009081265,
+      "energy": 0.59862,
+      "width": 6.674,
+      "confidence": 0.8355,
+      "phase": 0.198521
+    },
+    {
+      "longitude": 44,
+      "latitude": 70.11270423801858,
+      "energy": 0.619,
+      "width": 6.81,
+      "confidence": 0.84284,
+      "phase": 0.816554
+    },
+    {
+      "longitude": 45,
+      "latitude": 70.03068266362794,
+      "energy": 0.63704,
+      "width": 7.076,
+      "confidence": 0.84933,
+      "phase": 0.434588
+    },
+    {
+      "longitude": 46,
+      "latitude": 69.936332988488,
+      "energy": 0.64771,
+      "width": 7.181,
+      "confidence": 0.85318,
+      "phase": 0.052622
+    },
+    {
+      "longitude": 47,
+      "latitude": 69.82893420154932,
+      "energy": 0.65017,
+      "width": 7.435,
+      "confidence": 0.85406,
+      "phase": 0.670656
+    },
+    {
+      "longitude": 48,
+      "latitude": 69.70855221911125,
+      "energy": 0.64109,
+      "width": 7.6,
+      "confidence": 0.85079,
+      "phase": 0.28869
+    },
+    {
+      "longitude": 49,
+      "latitude": 69.57870134148081,
+      "energy": 0.61764,
+      "width": 7.313,
+      "confidence": 0.84235,
+      "phase": 0.906724
+    },
+    {
+      "longitude": 50,
+      "latitude": 69.4462198319128,
+      "energy": 0.59054,
+      "width": 6.552,
+      "confidence": 0.83259,
+      "phase": 0.524758
+    },
+    {
+      "longitude": 51,
+      "latitude": 69.32109929203277,
+      "energy": 0.57006,
+      "width": 6.438,
+      "confidence": 0.82522,
+      "phase": 0.142792
+    },
+    {
+      "longitude": 52,
+      "latitude": 69.21191408086642,
+      "energy": 0.55916,
+      "width": 6.416,
+      "confidence": 0.8213,
+      "phase": 0.760826
+    },
+    {
+      "longitude": 53,
+      "latitude": 69.12538856829966,
+      "energy": 0.56132,
+      "width": 6.583,
+      "confidence": 0.82208,
+      "phase": 0.37886
+    },
+    {
+      "longitude": 54,
+      "latitude": 69.06582072038773,
+      "energy": 0.57498,
+      "width": 6.812,
+      "confidence": 0.82699,
+      "phase": 0.996894
+    },
+    {
+      "longitude": 55,
+      "latitude": 69.03408520818563,
+      "energy": 0.58951,
+      "width": 6.855,
+      "confidence": 0.83222,
+      "phase": 0.614928
+    },
+    {
+      "longitude": 56,
+      "latitude": 69.0284676020581,
+      "energy": 0.60042,
+      "width": 6.978,
+      "confidence": 0.83615,
+      "phase": 0.232962
+    },
+    {
+      "longitude": 57,
+      "latitude": 69.04400912996365,
+      "energy": 0.60829,
+      "width": 7.169,
+      "confidence": 0.83898,
+      "phase": 0.850996
+    },
+    {
+      "longitude": 58,
+      "latitude": 69.07279414229805,
+      "energy": 0.60782,
+      "width": 7.024,
+      "confidence": 0.83882,
+      "phase": 0.46903
+    },
+    {
+      "longitude": 59,
+      "latitude": 69.10442787492075,
+      "energy": 0.6016,
+      "width": 6.849,
+      "confidence": 0.83658,
+      "phase": 0.087064
+    },
+    {
+      "longitude": 60,
+      "latitude": 69.12964585173708,
+      "energy": 0.59868,
+      "width": 6.919,
+      "confidence": 0.83552,
+      "phase": 0.705098
+    },
+    {
+      "longitude": 61,
+      "latitude": 69.14110716932502,
+      "energy": 0.6014,
+      "width": 7.255,
+      "confidence": 0.8365,
+      "phase": 0.323132
+    },
+    {
+      "longitude": 62,
+      "latitude": 69.13376267046478,
+      "energy": 0.60372,
+      "width": 6.991,
+      "confidence": 0.83734,
+      "phase": 0.941166
+    },
+    {
+      "longitude": 63,
+      "latitude": 69.1053168923244,
+      "energy": 0.60509,
+      "width": 6.893,
+      "confidence": 0.83783,
+      "phase": 0.5592
+    },
+    {
+      "longitude": 64,
+      "latitude": 69.05631949549621,
+      "energy": 0.60028,
+      "width": 7.09,
+      "confidence": 0.8361,
+      "phase": 0.177234
+    },
+    {
+      "longitude": 65,
+      "latitude": 68.99007497242306,
+      "energy": 0.57871,
+      "width": 7.362,
+      "confidence": 0.82834,
+      "phase": 0.795268
+    },
+    {
+      "longitude": 66,
+      "latitude": 68.91269783269615,
+      "energy": 0.53395,
+      "width": 7.327,
+      "confidence": 0.81222,
+      "phase": 0.413302
+    },
+    {
+      "longitude": 67,
+      "latitude": 68.83218658698057,
+      "energy": 0.46968,
+      "width": 7,
+      "confidence": 0.78908,
+      "phase": 0.031336
+    },
+    {
+      "longitude": 68,
+      "latitude": 68.75716580223622,
+      "energy": 0.39339,
+      "width": 6.465,
+      "confidence": 0.76162,
+      "phase": 0.64937
+    },
+    {
+      "longitude": 69,
+      "latitude": 68.69571409789901,
+      "energy": 0.31466,
+      "width": 6.1,
+      "confidence": 0.73328,
+      "phase": 0.267404
+    },
+    {
+      "longitude": 70,
+      "latitude": 68.65517005315556,
+      "energy": 0.2419,
+      "width": 6.2,
+      "confidence": 0.70708,
+      "phase": 0.885438
+    },
+    {
+      "longitude": 71,
+      "latitude": 68.64188756463321,
+      "energy": 0.18151,
+      "width": 5.985,
+      "confidence": 0.68534,
+      "phase": 0.503472
+    },
+    {
+      "longitude": 72,
+      "latitude": 68.66061411768611,
+      "energy": 0.13819,
+      "width": 5.685,
+      "confidence": 0.66975,
+      "phase": 0.121506
+    },
+    {
+      "longitude": 73,
+      "latitude": 68.71448069934576,
+      "energy": 0.11136,
+      "width": 5.395,
+      "confidence": 0.66009,
+      "phase": 0.73954
+    },
+    {
+      "longitude": 74,
+      "latitude": 68.80307366946197,
+      "energy": 0.09823,
+      "width": 5.132,
+      "confidence": 0.65536,
+      "phase": 0.357574
+    },
+    {
+      "longitude": 75,
+      "latitude": 68.92361363184271,
+      "energy": 0.10085,
+      "width": 5.137,
+      "confidence": 0.65631,
+      "phase": 0.975608
+    },
+    {
+      "longitude": 76,
+      "latitude": 69.07124972113513,
+      "energy": 0.11885,
+      "width": 5.33,
+      "confidence": 0.66279,
+      "phase": 0.593642
+    },
+    {
+      "longitude": 77,
+      "latitude": 69.23987225193962,
+      "energy": 0.14752,
+      "width": 5.303,
+      "confidence": 0.67311,
+      "phase": 0.211676
+    },
+    {
+      "longitude": 78,
+      "latitude": 69.42203506794954,
+      "energy": 0.18414,
+      "width": 5.328,
+      "confidence": 0.68629,
+      "phase": 0.82971
+    },
+    {
+      "longitude": 79,
+      "latitude": 69.6091106970263,
+      "energy": 0.22613,
+      "width": 5.568,
+      "confidence": 0.70141,
+      "phase": 0.447744
+    },
+    {
+      "longitude": 80,
+      "latitude": 69.79097548502203,
+      "energy": 0.26658,
+      "width": 6.18,
+      "confidence": 0.71597,
+      "phase": 0.065778
+    },
+    {
+      "longitude": 81,
+      "latitude": 69.9556913851658,
+      "energy": 0.3015,
+      "width": 6.331,
+      "confidence": 0.72854,
+      "phase": 0.683812
+    },
+    {
+      "longitude": 82,
+      "latitude": 70.0933651156949,
+      "energy": 0.33051,
+      "width": 6.422,
+      "confidence": 0.73898,
+      "phase": 0.301846
+    },
+    {
+      "longitude": 83,
+      "latitude": 70.19538027919008,
+      "energy": 0.35241,
+      "width": 6.372,
+      "confidence": 0.74687,
+      "phase": 0.91988
+    },
+    {
+      "longitude": 84,
+      "latitude": 70.254468005023,
+      "energy": 0.36788,
+      "width": 6.39,
+      "confidence": 0.75244,
+      "phase": 0.537914
+    },
+    {
+      "longitude": 85,
+      "latitude": 70.2648711240053,
+      "energy": 0.38068,
+      "width": 6.401,
+      "confidence": 0.75704,
+      "phase": 0.155948
+    },
+    {
+      "longitude": 86,
+      "latitude": 70.22279004617116,
+      "energy": 0.39126,
+      "width": 6.521,
+      "confidence": 0.76085,
+      "phase": 0.773982
+    },
+    {
+      "longitude": 87,
+      "latitude": 70.12646332953034,
+      "energy": 0.39677,
+      "width": 6.487,
+      "confidence": 0.76284,
+      "phase": 0.392016
+    },
+    {
+      "longitude": 88,
+      "latitude": 69.97709452678833,
+      "energy": 0.39522,
+      "width": 6.475,
+      "confidence": 0.76228,
+      "phase": 0.01005
+    },
+    {
+      "longitude": 89,
+      "latitude": 69.78068079035123,
+      "energy": 0.385,
+      "width": 6.682,
+      "confidence": 0.7586,
+      "phase": 0.628084
+    },
+    {
+      "longitude": 90,
+      "latitude": 69.54488019961127,
+      "energy": 0.36251,
+      "width": 6.632,
+      "confidence": 0.7505,
+      "phase": 0.246118
+    },
+    {
+      "longitude": 91,
+      "latitude": 69.27922934159966,
+      "energy": 0.32953,
+      "width": 6.371,
+      "confidence": 0.73863,
+      "phase": 0.864152
+    },
+    {
+      "longitude": 92,
+      "latitude": 68.99480435388305,
+      "energy": 0.29424,
+      "width": 6.012,
+      "confidence": 0.72593,
+      "phase": 0.482186
+    },
+    {
+      "longitude": 93,
+      "latitude": 68.70317410888819,
+      "energy": 0.26422,
+      "width": 5.824,
+      "confidence": 0.71512,
+      "phase": 0.10022
+    },
+    {
+      "longitude": 94,
+      "latitude": 68.41599417875312,
+      "energy": 0.24567,
+      "width": 5.774,
+      "confidence": 0.70844,
+      "phase": 0.718254
+    },
+    {
+      "longitude": 95,
+      "latitude": 68.14463483051568,
+      "energy": 0.24627,
+      "width": 5.953,
+      "confidence": 0.70866,
+      "phase": 0.336288
+    },
+    {
+      "longitude": 96,
+      "latitude": 67.89965399329013,
+      "energy": 0.27035,
+      "width": 6.156,
+      "confidence": 0.71733,
+      "phase": 0.954322
+    },
+    {
+      "longitude": 97,
+      "latitude": 67.68770477113428,
+      "energy": 0.31453,
+      "width": 6.371,
+      "confidence": 0.73323,
+      "phase": 0.572356
+    },
+    {
+      "longitude": 98,
+      "latitude": 67.51257705937263,
+      "energy": 0.37473,
+      "width": 6.789,
+      "confidence": 0.7549,
+      "phase": 0.19039
+    },
+    {
+      "longitude": 99,
+      "latitude": 67.3751662272326,
+      "energy": 0.44629,
+      "width": 7.28,
+      "confidence": 0.78066,
+      "phase": 0.808424
+    },
+    {
+      "longitude": 100,
+      "latitude": 67.27397290641058,
+      "energy": 0.52017,
+      "width": 7.6,
+      "confidence": 0.80726,
+      "phase": 0.426458
+    },
+    {
+      "longitude": 101,
+      "latitude": 67.20637427208153,
+      "energy": 0.58867,
+      "width": 7.6,
+      "confidence": 0.83192,
+      "phase": 0.044492
+    },
+    {
+      "longitude": 102,
+      "latitude": 67.16843610121418,
+      "energy": 0.64811,
+      "width": 7.6,
+      "confidence": 0.85332,
+      "phase": 0.662526
+    },
+    {
+      "longitude": 103,
+      "latitude": 67.15525011130144,
+      "energy": 0.6963,
+      "width": 7.6,
+      "confidence": 0.87067,
+      "phase": 0.28056
+    },
+    {
+      "longitude": 104,
+      "latitude": 67.16098949420208,
+      "energy": 0.72884,
+      "width": 7.6,
+      "confidence": 0.88238,
+      "phase": 0.898594
+    },
+    {
+      "longitude": 105,
+      "latitude": 67.18109914065639,
+      "energy": 0.74646,
+      "width": 7.6,
+      "confidence": 0.88873,
+      "phase": 0.516628
+    },
+    {
+      "longitude": 106,
+      "latitude": 67.2122537432538,
+      "energy": 0.75275,
+      "width": 7.6,
+      "confidence": 0.89099,
+      "phase": 0.134662
+    },
+    {
+      "longitude": 107,
+      "latitude": 67.25236015095537,
+      "energy": 0.75472,
+      "width": 7.6,
+      "confidence": 0.8917,
+      "phase": 0.752696
+    },
+    {
+      "longitude": 108,
+      "latitude": 67.30022591530076,
+      "energy": 0.75567,
+      "width": 7.6,
+      "confidence": 0.89204,
+      "phase": 0.37073
+    },
+    {
+      "longitude": 109,
+      "latitude": 67.35475354710458,
+      "energy": 0.76201,
+      "width": 7.6,
+      "confidence": 0.89432,
+      "phase": 0.988764
+    },
+    {
+      "longitude": 110,
+      "latitude": 67.41550906279363,
+      "energy": 0.77881,
+      "width": 7.6,
+      "confidence": 0.90037,
+      "phase": 0.606798
+    },
+    {
+      "longitude": 111,
+      "latitude": 67.48262624705771,
+      "energy": 0.80418,
+      "width": 7.6,
+      "confidence": 0.9095,
+      "phase": 0.224832
+    },
+    {
+      "longitude": 112,
+      "latitude": 67.55694723634164,
+      "energy": 0.82745,
+      "width": 7.6,
+      "confidence": 0.91788,
+      "phase": 0.842866
+    },
+    {
+      "longitude": 113,
+      "latitude": 67.63945318426094,
+      "energy": 0.84069,
+      "width": 7.6,
+      "confidence": 0.92265,
+      "phase": 0.4609
+    },
+    {
+      "longitude": 114,
+      "latitude": 67.73107443226688,
+      "energy": 0.83632,
+      "width": 7.6,
+      "confidence": 0.92108,
+      "phase": 0.078934
+    },
+    {
+      "longitude": 115,
+      "latitude": 67.83235971684883,
+      "energy": 0.80885,
+      "width": 7.6,
+      "confidence": 0.91119,
+      "phase": 0.696968
+    },
+    {
+      "longitude": 116,
+      "latitude": 67.94319411798683,
+      "energy": 0.75751,
+      "width": 7.6,
+      "confidence": 0.8927,
+      "phase": 0.315002
+    },
+    {
+      "longitude": 117,
+      "latitude": 68.06308431450479,
+      "energy": 0.68571,
+      "width": 7.6,
+      "confidence": 0.86686,
+      "phase": 0.933036
+    },
+    {
+      "longitude": 118,
+      "latitude": 68.19059541250566,
+      "energy": 0.59941,
+      "width": 7.6,
+      "confidence": 0.83579,
+      "phase": 0.55107
+    },
+    {
+      "longitude": 119,
+      "latitude": 68.32335568195526,
+      "energy": 0.50793,
+      "width": 7.52,
+      "confidence": 0.80285,
+      "phase": 0.169104
+    },
+    {
+      "longitude": 120,
+      "latitude": 68.45773265562515,
+      "energy": 0.41727,
+      "width": 7.266,
+      "confidence": 0.77022,
+      "phase": 0.787138
+    },
+    {
+      "longitude": 121,
+      "latitude": 68.58869860401018,
+      "energy": 0.33067,
+      "width": 6.788,
+      "confidence": 0.73904,
+      "phase": 0.405172
+    },
+    {
+      "longitude": 122,
+      "latitude": 68.71011767825317,
+      "energy": 0.25366,
+      "width": 6.323,
+      "confidence": 0.71132,
+      "phase": 0.023206
+    },
+    {
+      "longitude": 123,
+      "latitude": 68.81610721405832,
+      "energy": 0.18978,
+      "width": 6.14,
+      "confidence": 0.68832,
+      "phase": 0.64124
+    },
+    {
+      "longitude": 124,
+      "latitude": 68.90168752334924,
+      "energy": 0.13616,
+      "width": 5.928,
+      "confidence": 0.66902,
+      "phase": 0.259274
+    },
+    {
+      "longitude": 125,
+      "latitude": 68.9626790697067,
+      "energy": 0.09182,
+      "width": 5.762,
+      "confidence": 0.65306,
+      "phase": 0.877308
+    },
+    {
+      "longitude": 126,
+      "latitude": 68.99644321347556,
+      "energy": 0.05755,
+      "width": 5.464,
+      "confidence": 0.64072,
+      "phase": 0.495342
+    },
+    {
+      "longitude": 127,
+      "latitude": 69.0018747337497,
+      "energy": 0.03272,
+      "width": 5.326,
+      "confidence": 0.63178,
+      "phase": 0.113376
+    },
+    {
+      "longitude": 128,
+      "latitude": 68.98000697788538,
+      "energy": 0.01438,
+      "width": 5.224,
+      "confidence": 0.62518,
+      "phase": 0.73141
+    },
+    {
+      "longitude": 129,
+      "latitude": 68.93457547332329,
+      "energy": 0.00339,
+      "width": 5.348,
+      "confidence": 0.62122,
+      "phase": 0.349444
+    },
+    {
+      "longitude": 130,
+      "latitude": 68.87183844965963,
+      "energy": 0,
+      "width": 5.384,
+      "confidence": 0.62,
+      "phase": 0.967478
+    },
+    {
+      "longitude": 131,
+      "latitude": 68.79843194970815,
+      "energy": 0.00584,
+      "width": 5.378,
+      "confidence": 0.6221,
+      "phase": 0.585512
+    },
+    {
+      "longitude": 132,
+      "latitude": 68.72095462115652,
+      "energy": 0.02317,
+      "width": 5.316,
+      "confidence": 0.62834,
+      "phase": 0.203546
+    },
+    {
+      "longitude": 133,
+      "latitude": 68.64606487276072,
+      "energy": 0.0554,
+      "width": 5.39,
+      "confidence": 0.63994,
+      "phase": 0.821579
+    },
+    {
+      "longitude": 134,
+      "latitude": 68.57963624321812,
+      "energy": 0.10189,
+      "width": 5.595,
+      "confidence": 0.65668,
+      "phase": 0.439613
+    },
+    {
+      "longitude": 135,
+      "latitude": 68.52675342425063,
+      "energy": 0.16039,
+      "width": 6.103,
+      "confidence": 0.67774,
+      "phase": 0.057647
+    },
+    {
+      "longitude": 136,
+      "latitude": 68.49109600185187,
+      "energy": 0.22412,
+      "width": 6.579,
+      "confidence": 0.70068,
+      "phase": 0.675681
+    },
+    {
+      "longitude": 137,
+      "latitude": 68.4740863518126,
+      "energy": 0.28442,
+      "width": 6.907,
+      "confidence": 0.72239,
+      "phase": 0.293715
+    },
+    {
+      "longitude": 138,
+      "latitude": 68.47493218256065,
+      "energy": 0.33383,
+      "width": 7.098,
+      "confidence": 0.74018,
+      "phase": 0.911749
+    },
+    {
+      "longitude": 139,
+      "latitude": 68.4922236430987,
+      "energy": 0.36929,
+      "width": 7.253,
+      "confidence": 0.75294,
+      "phase": 0.529783
+    },
+    {
+      "longitude": 140,
+      "latitude": 68.52398194824923,
+      "energy": 0.39034,
+      "width": 7.324,
+      "confidence": 0.76052,
+      "phase": 0.147817
+    },
+    {
+      "longitude": 141,
+      "latitude": 68.56766179530779,
+      "energy": 0.40137,
+      "width": 7.332,
+      "confidence": 0.76449,
+      "phase": 0.765851
+    },
+    {
+      "longitude": 142,
+      "latitude": 68.62043591480507,
+      "energy": 0.40861,
+      "width": 7.28,
+      "confidence": 0.7671,
+      "phase": 0.383885
+    },
+    {
+      "longitude": 143,
+      "latitude": 68.67910365603555,
+      "energy": 0.41646,
+      "width": 7.262,
+      "confidence": 0.76993,
+      "phase": 0.001919
+    },
+    {
+      "longitude": 144,
+      "latitude": 68.74037467780241,
+      "energy": 0.42448,
+      "width": 7.288,
+      "confidence": 0.77281,
+      "phase": 0.619953
+    },
+    {
+      "longitude": 145,
+      "latitude": 68.80138578824476,
+      "energy": 0.43162,
+      "width": 7.495,
+      "confidence": 0.77538,
+      "phase": 0.237987
+    },
+    {
+      "longitude": 146,
+      "latitude": 68.85974716244473,
+      "energy": 0.43382,
+      "width": 7.6,
+      "confidence": 0.77618,
+      "phase": 0.856021
+    },
+    {
+      "longitude": 147,
+      "latitude": 68.91302578684214,
+      "energy": 0.42698,
+      "width": 7.6,
+      "confidence": 0.77371,
+      "phase": 0.474055
+    },
+    {
+      "longitude": 148,
+      "latitude": 68.95897906608187,
+      "energy": 0.40923,
+      "width": 7.39,
+      "confidence": 0.76732,
+      "phase": 0.092089
+    },
+    {
+      "longitude": 149,
+      "latitude": 68.99555354907292,
+      "energy": 0.38375,
+      "width": 7.184,
+      "confidence": 0.75815,
+      "phase": 0.710123
+    },
+    {
+      "longitude": 150,
+      "latitude": 69.02135166454619,
+      "energy": 0.35434,
+      "width": 7.043,
+      "confidence": 0.74756,
+      "phase": 0.328157
+    },
+    {
+      "longitude": 151,
+      "latitude": 69.0360045085709,
+      "energy": 0.32572,
+      "width": 6.993,
+      "confidence": 0.73726,
+      "phase": 0.946191
+    },
+    {
+      "longitude": 152,
+      "latitude": 69.04007708877535,
+      "energy": 0.3034,
+      "width": 6.83,
+      "confidence": 0.72922,
+      "phase": 0.564225
+    },
+    {
+      "longitude": 153,
+      "latitude": 69.03506826755802,
+      "energy": 0.29172,
+      "width": 6.567,
+      "confidence": 0.72502,
+      "phase": 0.182259
+    },
+    {
+      "longitude": 154,
+      "latitude": 69.023177496617,
+      "energy": 0.29445,
+      "width": 6.548,
+      "confidence": 0.726,
+      "phase": 0.800293
+    },
+    {
+      "longitude": 155,
+      "latitude": 69.0073060564,
+      "energy": 0.31213,
+      "width": 6.608,
+      "confidence": 0.73237,
+      "phase": 0.418327
+    },
+    {
+      "longitude": 156,
+      "latitude": 68.9905432347,
+      "energy": 0.34477,
+      "width": 6.889,
+      "confidence": 0.74412,
+      "phase": 0.036361
+    },
+    {
+      "longitude": 157,
+      "latitude": 68.97588592824907,
+      "energy": 0.3893,
+      "width": 7.074,
+      "confidence": 0.76015,
+      "phase": 0.654395
+    },
+    {
+      "longitude": 158,
+      "latitude": 68.96567647361758,
+      "energy": 0.44458,
+      "width": 7.308,
+      "confidence": 0.78005,
+      "phase": 0.272429
+    },
+    {
+      "longitude": 159,
+      "latitude": 68.96108667434886,
+      "energy": 0.50595,
+      "width": 7.518,
+      "confidence": 0.80214,
+      "phase": 0.890463
+    },
+    {
+      "longitude": 160,
+      "latitude": 68.96235122499513,
+      "energy": 0.56965,
+      "width": 7.6,
+      "confidence": 0.82507,
+      "phase": 0.508497
+    },
+    {
+      "longitude": 161,
+      "latitude": 68.96867381722896,
+      "energy": 0.631,
+      "width": 7.6,
+      "confidence": 0.84716,
+      "phase": 0.126531
+    },
+    {
+      "longitude": 162,
+      "latitude": 68.97869574717525,
+      "energy": 0.69008,
+      "width": 7.6,
+      "confidence": 0.86843,
+      "phase": 0.744565
+    },
+    {
+      "longitude": 163,
+      "latitude": 68.99063688697902,
+      "energy": 0.7409,
+      "width": 7.6,
+      "confidence": 0.88672,
+      "phase": 0.362599
+    },
+    {
+      "longitude": 164,
+      "latitude": 69.00290482736725,
+      "energy": 0.78072,
+      "width": 7.6,
+      "confidence": 0.90106,
+      "phase": 0.980633
+    },
+    {
+      "longitude": 165,
+      "latitude": 69.01446948157817,
+      "energy": 0.81106,
+      "width": 7.6,
+      "confidence": 0.91198,
+      "phase": 0.598667
+    },
+    {
+      "longitude": 166,
+      "latitude": 69.02495649102423,
+      "energy": 0.83483,
+      "width": 7.6,
+      "confidence": 0.92054,
+      "phase": 0.216701
+    },
+    {
+      "longitude": 167,
+      "latitude": 69.0348342063889,
+      "energy": 0.84728,
+      "width": 7.6,
+      "confidence": 0.92502,
+      "phase": 0.834735
+    },
+    {
+      "longitude": 168,
+      "latitude": 69.04499212411233,
+      "energy": 0.84858,
+      "width": 7.6,
+      "confidence": 0.92549,
+      "phase": 0.452769
+    },
+    {
+      "longitude": 169,
+      "latitude": 69.05664713397772,
+      "energy": 0.83956,
+      "width": 7.6,
+      "confidence": 0.92224,
+      "phase": 0.070803
+    },
+    {
+      "longitude": 170,
+      "latitude": 69.07026689937838,
+      "energy": 0.81987,
+      "width": 7.6,
+      "confidence": 0.91515,
+      "phase": 0.688837
+    },
+    {
+      "longitude": 171,
+      "latitude": 69.08547651407267,
+      "energy": 0.79086,
+      "width": 7.6,
+      "confidence": 0.90471,
+      "phase": 0.306871
+    },
+    {
+      "longitude": 172,
+      "latitude": 69.10073137766298,
+      "energy": 0.75829,
+      "width": 7.6,
+      "confidence": 0.89298,
+      "phase": 0.924905
+    },
+    {
+      "longitude": 173,
+      "latitude": 69.11327102425903,
+      "energy": 0.72709,
+      "width": 7.6,
+      "confidence": 0.88175,
+      "phase": 0.542939
+    },
+    {
+      "longitude": 174,
+      "latitude": 69.11935331142328,
+      "energy": 0.69896,
+      "width": 7.6,
+      "confidence": 0.87163,
+      "phase": 0.160973
+    },
+    {
+      "longitude": 175,
+      "latitude": 69.11448750140045,
+      "energy": 0.67317,
+      "width": 7.6,
+      "confidence": 0.86234,
+      "phase": 0.779007
+    },
+    {
+      "longitude": 176,
+      "latitude": 69.09366566747585,
+      "energy": 0.6458,
+      "width": 7.6,
+      "confidence": 0.85249,
+      "phase": 0.397041
+    },
+    {
+      "longitude": 177,
+      "latitude": 69.05145163929332,
+      "energy": 0.61249,
+      "width": 7.6,
+      "confidence": 0.8405,
+      "phase": 0.015075
+    },
+    {
+      "longitude": 178,
+      "latitude": 68.98464302258559,
+      "energy": 0.57372,
+      "width": 7.6,
+      "confidence": 0.82654,
+      "phase": 0.633109
+    },
+    {
+      "longitude": 179,
+      "latitude": 68.89217583296593,
+      "energy": 0.53171,
+      "width": 7.6,
+      "confidence": 0.81142,
+      "phase": 0.251143
+    },
+    {
+      "longitude": -180,
+      "latitude": 68.77498669093282,
+      "energy": 0.48904,
+      "width": 7.439,
+      "confidence": 0.79605,
+      "phase": 0.869177
+    },
+    {
+      "longitude": -179,
+      "latitude": 68.63583260321809,
+      "energy": 0.45324,
+      "width": 6.932,
+      "confidence": 0.78317,
+      "phase": 0.487211
+    },
+    {
+      "longitude": -178,
+      "latitude": 68.47911427333293,
+      "energy": 0.43458,
+      "width": 6.639,
+      "confidence": 0.77645,
+      "phase": 0.105245
+    },
+    {
+      "longitude": -177,
+      "latitude": 68.31060735738264,
+      "energy": 0.43524,
+      "width": 6.47,
+      "confidence": 0.77669,
+      "phase": 0.723279
+    },
+    {
+      "longitude": -176,
+      "latitude": 68.13780540929218,
+      "energy": 0.45448,
+      "width": 6.703,
+      "confidence": 0.78361,
+      "phase": 0.341313
+    },
+    {
+      "longitude": -175,
+      "latitude": 67.97002853331277,
+      "energy": 0.49089,
+      "width": 6.975,
+      "confidence": 0.79672,
+      "phase": 0.959347
+    },
+    {
+      "longitude": -174,
+      "latitude": 67.81470497897554,
+      "energy": 0.53968,
+      "width": 7.316,
+      "confidence": 0.81428,
+      "phase": 0.577381
+    },
+    {
+      "longitude": -173,
+      "latitude": 67.6775926966998,
+      "energy": 0.5916,
+      "width": 7.564,
+      "confidence": 0.83298,
+      "phase": 0.195415
+    },
+    {
+      "longitude": -172,
+      "latitude": 67.56319008741217,
+      "energy": 0.63867,
+      "width": 7.576,
+      "confidence": 0.84992,
+      "phase": 0.813449
+    },
+    {
+      "longitude": -171,
+      "latitude": 67.47472345015106,
+      "energy": 0.67868,
+      "width": 7.6,
+      "confidence": 0.86432,
+      "phase": 0.431483
+    },
+    {
+      "longitude": -170,
+      "latitude": 67.41408874122467,
+      "energy": 0.71192,
+      "width": 7.6,
+      "confidence": 0.87629,
+      "phase": 0.049517
+    },
+    {
+      "longitude": -169,
+      "latitude": 67.38170143308807,
+      "energy": 0.73676,
+      "width": 7.6,
+      "confidence": 0.88523,
+      "phase": 0.667551
+    },
+    {
+      "longitude": -168,
+      "latitude": 67.3756871608319,
+      "energy": 0.75169,
+      "width": 7.6,
+      "confidence": 0.89061,
+      "phase": 0.285585
+    },
+    {
+      "longitude": -167,
+      "latitude": 67.39169306775871,
+      "energy": 0.76027,
+      "width": 7.6,
+      "confidence": 0.8937,
+      "phase": 0.903619
+    },
+    {
+      "longitude": -166,
+      "latitude": 67.42530888255027,
+      "energy": 0.76601,
+      "width": 7.6,
+      "confidence": 0.89576,
+      "phase": 0.521653
+    },
+    {
+      "longitude": -165,
+      "latitude": 67.47164738902053,
+      "energy": 0.76821,
+      "width": 7.6,
+      "confidence": 0.89656,
+      "phase": 0.139687
+    },
+    {
+      "longitude": -164,
+      "latitude": 67.52511378421008,
+      "energy": 0.76659,
+      "width": 7.6,
+      "confidence": 0.89597,
+      "phase": 0.757721
+    },
+    {
+      "longitude": -163,
+      "latitude": 67.57964716697737,
+      "energy": 0.77055,
+      "width": 7.6,
+      "confidence": 0.8974,
+      "phase": 0.375755
+    },
+    {
+      "longitude": -162,
+      "latitude": 67.62900671356812,
+      "energy": 0.78372,
+      "width": 7.6,
+      "confidence": 0.90214,
+      "phase": 0.993789
+    },
+    {
+      "longitude": -161,
+      "latitude": 67.66747988945028,
+      "energy": 0.80394,
+      "width": 7.6,
+      "confidence": 0.90942,
+      "phase": 0.611823
+    },
+    {
+      "longitude": -160,
+      "latitude": 67.69063430071608,
+      "energy": 0.83191,
+      "width": 7.6,
+      "confidence": 0.91949,
+      "phase": 0.229857
+    },
+    {
+      "longitude": -159,
+      "latitude": 67.69554821233137,
+      "energy": 0.87179,
+      "width": 7.6,
+      "confidence": 0.93384,
+      "phase": 0.847891
+    },
+    {
+      "longitude": -158,
+      "latitude": 67.68038067821968,
+      "energy": 0.91247,
+      "width": 7.6,
+      "confidence": 0.94849,
+      "phase": 0.465925
+    },
+    {
+      "longitude": -157,
+      "latitude": 67.6449360860801,
+      "energy": 0.94725,
+      "width": 7.6,
+      "confidence": 0.96101,
+      "phase": 0.083959
+    },
+    {
+      "longitude": -156,
+      "latitude": 67.59042833405226,
+      "energy": 0.97321,
+      "width": 7.6,
+      "confidence": 0.97036,
+      "phase": 0.701993
+    },
+    {
+      "longitude": -155,
+      "latitude": 67.51920037620056,
+      "energy": 0.99191,
+      "width": 7.6,
+      "confidence": 0.97709,
+      "phase": 0.320027
+    },
+    {
+      "longitude": -154,
+      "latitude": 67.43453995942936,
+      "energy": 0.99748,
+      "width": 7.6,
+      "confidence": 0.97909,
+      "phase": 0.938061
+    },
+    {
+      "longitude": -153,
+      "latitude": 67.33997495745986,
+      "energy": 0.99795,
+      "width": 7.6,
+      "confidence": 0.97926,
+      "phase": 0.556095
+    },
+    {
+      "longitude": -152,
+      "latitude": 67.23904006215324,
+      "energy": 0.99841,
+      "width": 7.6,
+      "confidence": 0.97943,
+      "phase": 0.174129
+    },
+    {
+      "longitude": -151,
+      "latitude": 67.13499431979261,
+      "energy": 1,
+      "width": 7.6,
+      "confidence": 0.98,
+      "phase": 0.792163
+    },
+    {
+      "longitude": -150,
+      "latitude": 67.03077388549765,
+      "energy": 0.99257,
+      "width": 7.6,
+      "confidence": 0.97733,
+      "phase": 0.410197
+    },
+    {
+      "longitude": -149,
+      "latitude": 66.92842110798429,
+      "energy": 0.97424,
+      "width": 7.6,
+      "confidence": 0.97073,
+      "phase": 0.028231
+    },
+    {
+      "longitude": -148,
+      "latitude": 66.82946148107803,
+      "energy": 0.934,
+      "width": 7.6,
+      "confidence": 0.95624,
+      "phase": 0.646265
+    },
+    {
+      "longitude": -147,
+      "latitude": 66.73532969456328,
+      "energy": 0.86903,
+      "width": 7.6,
+      "confidence": 0.93285,
+      "phase": 0.264299
+    },
+    {
+      "longitude": -146,
+      "latitude": 66.64727367080107,
+      "energy": 0.78486,
+      "width": 7.6,
+      "confidence": 0.90255,
+      "phase": 0.882333
+    },
+    {
+      "longitude": -145,
+      "latitude": 66.56649635305943,
+      "energy": 0.69673,
+      "width": 7.6,
+      "confidence": 0.87082,
+      "phase": 0.500367
+    },
+    {
+      "longitude": -144,
+      "latitude": 66.49396428848524,
+      "energy": 0.61861,
+      "width": 7.319,
+      "confidence": 0.8427,
+      "phase": 0.118401
+    },
+    {
+      "longitude": -143,
+      "latitude": 66.43054942092537,
+      "energy": 0.56441,
+      "width": 6.87,
+      "confidence": 0.82319,
+      "phase": 0.736435
+    },
+    {
+      "longitude": -142,
+      "latitude": 66.37631257711786,
+      "energy": 0.53555,
+      "width": 6.823,
+      "confidence": 0.8128,
+      "phase": 0.354469
+    },
+    {
+      "longitude": -141,
+      "latitude": 66.33136055384809,
+      "energy": 0.52496,
+      "width": 6.981,
+      "confidence": 0.80899,
+      "phase": 0.972503
+    },
+    {
+      "longitude": -140,
+      "latitude": 66.29589385833135,
+      "energy": 0.52443,
+      "width": 7.15,
+      "confidence": 0.80879,
+      "phase": 0.590537
+    },
+    {
+      "longitude": -139,
+      "latitude": 66.26963370239277,
+      "energy": 0.52457,
+      "width": 6.93,
+      "confidence": 0.80885,
+      "phase": 0.208571
+    },
+    {
+      "longitude": -138,
+      "latitude": 66.25167825988215,
+      "energy": 0.52171,
+      "width": 6.632,
+      "confidence": 0.80782,
+      "phase": 0.826604
+    },
+    {
+      "longitude": -137,
+      "latitude": 66.24069365713096,
+      "energy": 0.51781,
+      "width": 6.543,
+      "confidence": 0.80641,
+      "phase": 0.444638
+    },
+    {
+      "longitude": -136,
+      "latitude": 66.23510548174276,
+      "energy": 0.51886,
+      "width": 6.719,
+      "confidence": 0.80679,
+      "phase": 0.062672
+    },
+    {
+      "longitude": -135,
+      "latitude": 66.23319493938403,
+      "energy": 0.52384,
+      "width": 6.955,
+      "confidence": 0.80858,
+      "phase": 0.680706
+    },
+    {
+      "longitude": -134,
+      "latitude": 66.23419797762023,
+      "energy": 0.52873,
+      "width": 7.129,
+      "confidence": 0.81034,
+      "phase": 0.29874
+    },
+    {
+      "longitude": -133,
+      "latitude": 66.23715928349247,
+      "energy": 0.5284,
+      "width": 7.128,
+      "confidence": 0.81022,
+      "phase": 0.916774
+    },
+    {
+      "longitude": -132,
+      "latitude": 66.24021604468048,
+      "energy": 0.52387,
+      "width": 7.257,
+      "confidence": 0.80859,
+      "phase": 0.534808
+    },
+    {
+      "longitude": -131,
+      "latitude": 66.24098022376,
+      "energy": 0.515,
+      "width": 7.224,
+      "confidence": 0.8054,
+      "phase": 0.152842
+    },
+    {
+      "longitude": -130,
+      "latitude": 66.23749362024436,
+      "energy": 0.50329,
+      "width": 6.852,
+      "confidence": 0.80118,
+      "phase": 0.770876
+    },
+    {
+      "longitude": -129,
+      "latitude": 66.22770197381756,
+      "energy": 0.49484,
+      "width": 6.508,
+      "confidence": 0.79814,
+      "phase": 0.38891
+    },
+    {
+      "longitude": -128,
+      "latitude": 66.20935856437207,
+      "energy": 0.49493,
+      "width": 6.819,
+      "confidence": 0.79817,
+      "phase": 0.006944
+    },
+    {
+      "longitude": -127,
+      "latitude": 66.17992726852873,
+      "energy": 0.49881,
+      "width": 7.323,
+      "confidence": 0.79957,
+      "phase": 0.624978
+    },
+    {
+      "longitude": -126,
+      "latitude": 66.13629360038792,
+      "energy": 0.49879,
+      "width": 7.11,
+      "confidence": 0.79956,
+      "phase": 0.243012
+    },
+    {
+      "longitude": -125,
+      "latitude": 66.07552607079101,
+      "energy": 0.49768,
+      "width": 6.88,
+      "confidence": 0.79916,
+      "phase": 0.861046
+    },
+    {
+      "longitude": -124,
+      "latitude": 65.99712192089835,
+      "energy": 0.49491,
+      "width": 6.797,
+      "confidence": 0.79817,
+      "phase": 0.47908
+    },
+    {
+      "longitude": -123,
+      "latitude": 65.9017670804405,
+      "energy": 0.48864,
+      "width": 6.845,
+      "confidence": 0.79591,
+      "phase": 0.097114
+    },
+    {
+      "longitude": -122,
+      "latitude": 65.79009445727802,
+      "energy": 0.47652,
+      "width": 6.769,
+      "confidence": 0.79155,
+      "phase": 0.715148
+    },
+    {
+      "longitude": -121,
+      "latitude": 65.66441160858317,
+      "energy": 0.46309,
+      "width": 6.859,
+      "confidence": 0.78671,
+      "phase": 0.333182
+    },
+    {
+      "longitude": -120,
+      "latitude": 65.52899882106794,
+      "energy": 0.44762,
+      "width": 6.692,
+      "confidence": 0.78114,
+      "phase": 0.951216
+    },
+    {
+      "longitude": -119,
+      "latitude": 65.39021886427099,
+      "energy": 0.43369,
+      "width": 6.621,
+      "confidence": 0.77613,
+      "phase": 0.56925
+    },
+    {
+      "longitude": -118,
+      "latitude": 65.25604996183118,
+      "energy": 0.42221,
+      "width": 6.198,
+      "confidence": 0.772,
+      "phase": 0.187284
+    },
+    {
+      "longitude": -117,
+      "latitude": 65.13599790997812,
+      "energy": 0.41925,
+      "width": 6.13,
+      "confidence": 0.77093,
+      "phase": 0.805318
+    },
+    {
+      "longitude": -116,
+      "latitude": 65.03478052327526,
+      "energy": 0.42997,
+      "width": 6.231,
+      "confidence": 0.77479,
+      "phase": 0.423352
+    },
+    {
+      "longitude": -115,
+      "latitude": 64.95693113441288,
+      "energy": 0.45312,
+      "width": 6.74,
+      "confidence": 0.78312,
+      "phase": 0.041386
+    },
+    {
+      "longitude": -114,
+      "latitude": 64.90654869963097,
+      "energy": 0.4777,
+      "width": 7.138,
+      "confidence": 0.79197,
+      "phase": 0.65942
+    },
+    {
+      "longitude": -113,
+      "latitude": 64.88497056796584,
+      "energy": 0.49283,
+      "width": 7.128,
+      "confidence": 0.79742,
+      "phase": 0.277454
+    },
+    {
+      "longitude": -112,
+      "latitude": 64.89008787426904,
+      "energy": 0.50112,
+      "width": 7.6,
+      "confidence": 0.8004,
+      "phase": 0.895488
+    },
+    {
+      "longitude": -111,
+      "latitude": 64.91571945974448,
+      "energy": 0.50089,
+      "width": 7.6,
+      "confidence": 0.80032,
+      "phase": 0.513522
+    },
+    {
+      "longitude": -110,
+      "latitude": 64.95191312353185,
+      "energy": 0.48561,
+      "width": 7.34,
+      "confidence": 0.79482,
+      "phase": 0.131556
+    },
+    {
+      "longitude": -109,
+      "latitude": 64.9846230022346,
+      "energy": 0.46049,
+      "width": 6.611,
+      "confidence": 0.78578,
+      "phase": 0.74959
+    },
+    {
+      "longitude": -108,
+      "latitude": 65.00637651750898,
+      "energy": 0.4446,
+      "width": 6.417,
+      "confidence": 0.78006,
+      "phase": 0.367624
+    },
+    {
+      "longitude": -107,
+      "latitude": 65.00931849331741,
+      "energy": 0.42657,
+      "width": 7.566,
+      "confidence": 0.77357,
+      "phase": 0.985658
+    },
+    {
+      "longitude": -106,
+      "latitude": 64.98727607622584,
+      "energy": 0.38865,
+      "width": 7.116,
+      "confidence": 0.75991,
+      "phase": 0.603692
+    },
+    {
+      "longitude": -105,
+      "latitude": 64.93666483005659,
+      "energy": 0.34209,
+      "width": 6.577,
+      "confidence": 0.74315,
+      "phase": 0.221726
+    },
+    {
+      "longitude": -104,
+      "latitude": 64.85711128306465,
+      "energy": 0.29607,
+      "width": 6.834,
+      "confidence": 0.72659,
+      "phase": 0.83976
+    },
+    {
+      "longitude": -103,
+      "latitude": 64.75257015499527,
+      "energy": 0.24893,
+      "width": 6.699,
+      "confidence": 0.70961,
+      "phase": 0.457794
+    },
+    {
+      "longitude": -102,
+      "latitude": 64.63129798798602,
+      "energy": 0.2123,
+      "width": 6.289,
+      "confidence": 0.69643,
+      "phase": 0.075828
+    },
+    {
+      "longitude": -101,
+      "latitude": 64.50627189840866,
+      "energy": 0.20157,
+      "width": 6.47,
+      "confidence": 0.69257,
+      "phase": 0.693862
+    },
+    {
+      "longitude": -100,
+      "latitude": 64.3853331961996,
+      "energy": 0.21125,
+      "width": 6.829,
+      "confidence": 0.69605,
+      "phase": 0.311896
+    },
+    {
+      "longitude": -99,
+      "latitude": 64.27591783234615,
+      "energy": 0.23596,
+      "width": 7.6,
+      "confidence": 0.70495,
+      "phase": 0.92993
+    },
+    {
+      "longitude": -98,
+      "latitude": 64.18339887270841,
+      "energy": 0.2586,
+      "width": 7.6,
+      "confidence": 0.7131,
+      "phase": 0.547964
+    },
+    {
+      "longitude": -97,
+      "latitude": 64.11126552341486,
+      "energy": 0.27186,
+      "width": 7.108,
+      "confidence": 0.71787,
+      "phase": 0.165998
+    },
+    {
+      "longitude": -96,
+      "latitude": 64.06130496719918,
+      "energy": 0.28876,
+      "width": 7.027,
+      "confidence": 0.72395,
+      "phase": 0.784032
+    },
+    {
+      "longitude": -95,
+      "latitude": 64.03276740207079,
+      "energy": 0.31633,
+      "width": 7.531,
+      "confidence": 0.73388,
+      "phase": 0.402066
+    },
+    {
+      "longitude": -94,
+      "latitude": 64.02270224877036,
+      "energy": 0.34048,
+      "width": 7.386,
+      "confidence": 0.74257,
+      "phase": 0.0201
+    },
+    {
+      "longitude": -93,
+      "latitude": 64.02591152161867,
+      "energy": 0.36803,
+      "width": 7.18,
+      "confidence": 0.75249,
+      "phase": 0.638134
+    },
+    {
+      "longitude": -92,
+      "latitude": 64.03952564493913,
+      "energy": 0.40033,
+      "width": 7.6,
+      "confidence": 0.76412,
+      "phase": 0.256168
+    },
+    {
+      "longitude": -91,
+      "latitude": 64.0615480172643,
+      "energy": 0.4132,
+      "width": 7.6,
+      "confidence": 0.76875,
+      "phase": 0.874202
+    }
+  ]
+}

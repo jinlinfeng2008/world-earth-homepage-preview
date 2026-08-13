@@ -1,0 +1,28 @@
+{
+  "active": {
+    "product": "EOG VNL v2 NPP 2020 global masked median Artist proxy",
+    "encoding": "sqrt-display-8bit",
+    "mapping": "encoded=sqrt(clamp(radiance,0,75)/75); runtime inverse before HDR",
+    "radianceMax": 75,
+    "factStatus": "PROXY_NOT_FORMAL_RADIOMETRIC_FACT",
+    "tiers": [
+      {
+        "id": "artist-proxy-10k",
+        "url": "/data/homepage-complete-expression-v1/eog-vnl-2020/eog-vnl-2020-median-masked-sqrt-10000x5000.png",
+        "dimensions": [10000, 5000]
+      },
+      {
+        "id": "artist-proxy-8k-mobile-safe",
+        "url": "/data/homepage-complete-expression-v1/eog-vnl-2020/eog-vnl-2020-median-masked-sqrt-8192x4096.png",
+        "dimensions": [8192, 4096]
+      }
+    ]
+  },
+  "formalRuntimeContract": {
+    "product": "EOG VNL annual or NASA VNP46 annual QA-approved global radiance",
+    "encoding": "linear-u16-normalized",
+    "mapping": "radiance=normalizedU16*radianceMax in physical product units",
+    "factStatus": "FORMAL_FACT",
+    "requiredProvenance": ["product", "collection", "year", "SDS", "scale", "offset", "QA", "source URL", "checksum", "license"]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "world-earth-gebco-tid-runtime-v1",
+  "generatedAt": "2026-08-09T06:40:08.914Z",
+  "product": "GEBCO_2026 Type Identifier Grid",
+  "productDoi": "https://doi.org/10.5285/4f68d5c7-45eb-f999-e063-7086abc036fa",
+  "source": "https://dap.ceda.ac.uk/bodc/gebco/global/gebco_2026/type_identifier_grid/geotiff/gebco_2026_tid_geotiff.zip?download=1",
+  "sourceArchiveSha256": "90720c74c0702fd8763d8eb8a23b1c0c6c024c38fef93742bbccafddba2f307d",
+  "sourceFormat": "eight official 90x90 degree GeoTIFF tiles; 15 arc-second; uint8 categorical TID",
+  "runtimeAsset": {
+    "url": "/data/homepage-complete-expression-v1/landscape-ocean/gebco-2026-tid-4096x2048.png",
+    "dimensions": [
+      4096,
+      2048
+    ],
+    "encoding": "single-channel uint8; original GEBCO TID codes preserved",
+    "resampling": "nearest to homepage orbital LOD",
+    "sha256": "f20720aa72bc8e7c2e12d0355f929ebbf298393c07c71d5020d20c4e03888a4d"
+  },
+  "codeCountsAtRuntimeLod": {
+    "0": 1987942,
+    "10": 37210,
+    "11": 1434230,
+    "12": 6377,
+    "13": 691,
+    "14": 1056,
+    "15": 1646,
+    "16": 21586,
+    "17": 228576,
+    "40": 2580591,
+    "41": 1175037,
+    "42": 3110,
+    "43": 706,
+    "44": 60796,
+    "45": 25293,
+    "47": 3,
+    "48": 132,
+    "70": 823443,
+    "71": 29,
+    "72": 154
+  },
+  "license": "Public domain; free commercial use with required attribution and no endorsement implication",
+  "attribution": "GEBCO Bathymetric Compilation Group 2026 (2026), GEBCO_2026 Grid, doi:10.5285/4f68d5c7-45eb-f999-e063-7086abc036fa",
+  "factualBoundary": "FACT source-type category. It records GEBCO source provenance quality and does not alter frozen ocean color or claim measured depth where the TID code denotes prediction/interpolation."
+}
