@@ -52,16 +52,16 @@ const copyDemoAssetsToOutput = {
 // subpath when the browser actually requests them. The application never
 // sees a rewritten value; only the wire request differs.
 //
-// The same script also substitutes the public demo dataset for the
-// system-test fixture dataset by default. This is a network-level swap,
-// not a data-content change: fixture-provider.js still requests exactly
-// '/world-earth-homepage-v1/fixtures/fixture-dataset.json' (unchanged),
-// still validates the response through the unmodified source-policy.js,
-// and the demo records' `src` values still use the exact
-// '/world-earth-homepage-v1/fixtures/media/...' prefix the FIXTURE policy
-// already allows. Appending ?rawFixture=1 to the URL skips the swap and
-// serves the original 6-record system-test fixture untouched, for anyone
-// who specifically needs the minimal test set.
+// Default behavior matches the reviewed Codex baseline exactly: with no
+// query parameters, fixture-provider.js's request for
+// '/world-earth-homepage-v1/fixtures/fixture-dataset.json' is left
+// completely alone and returns the real, committed 6-record system-test
+// fixture — the same file, same bytes, same validation path as in
+// travel-earth-engine. The 159-record public demo dataset is available
+// only as an explicit opt-in via ?demo=159; it is never substituted by
+// default and never changes what "no parameters" means. Either way,
+// fixture-provider.js and source-policy.js are not modified and validate
+// the exact same root-relative strings they always have.
 const injectPagesBaseNetworkAdapter = {
   name: 'inject-pages-base-network-adapter',
   transformIndexHtml: {
@@ -73,7 +73,7 @@ const injectPagesBaseNetworkAdapter = {
   var PREFIXES=['/world-earth-homepage-v1/','/textures/','/data/'];
   var FIXTURE_DATASET='/world-earth-homepage-v1/fixtures/fixture-dataset.json';
   var DEMO_MEDIA_RE=/\\/world-earth-homepage-v1\\/fixtures\\/media\\/(demo-\\d+\\.svg)$/;
-  var useDemo=new URLSearchParams(location.search).get('rawFixture')!=='1';
+  var useDemo=new URLSearchParams(location.search).get('demo')==='159';
   function resolveUrl(v){
     if(typeof v!=='string')return v;
     if(useDemo&&v.indexOf(FIXTURE_DATASET)===v.length-FIXTURE_DATASET.length)return BASE+'/demo-assets/public-demo-dataset.json';

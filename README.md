@@ -38,21 +38,25 @@ GitHub Pages URL.
   only, which patches `window.fetch` / `HTMLImageElement.src` at the
   network layer.
 
-## Default mode: public demo dataset (159 records)
+## Default mode: exactly the reviewed Codex baseline
 
-Visiting the site with no query parameters (or with `?photoDataset=fixture`,
-which resolves to the same code path in the unmodified application) loads
-the 159-record public demo dataset by default, redirected purely at the
-network layer — `fixture-provider.js` and `source-policy.js` are never
-modified and always validate the exact same root-relative strings they
-validated before this dataset existed.
+Visiting the site with no query parameters loads exactly what the reviewed
+`travel-earth-engine@world-earth-homepage-v1` source produces by default:
+the real, committed 6-record system-test fixture (`fixture-asia-1`,
+`fixture-asia-2`, `fixture-europe-1`, `fixture-europe-2`,
+`fixture-north-america-1`, `fixture-north-america-2`). Nothing is swapped;
+`fixture-provider.js` and `source-policy.js` are not modified and serve
+the same file they always have.
 
-Append `?rawFixture=1` to get the original 6-record minimal system-test
-fixture instead (the one used by the repository's own automated tests).
+Append `?demo=159` to see the 159-record public demo dataset instead —
+one record per real public WGS84 place already in
+`world-earth-homepage-v1/life-photo/place-catalog.js`, using 36 synthetic
+placeholder images. This is an explicit opt-in only; it never changes what
+"no parameters" means.
 
 `?photoDataset=founder&photoDatasetUrl=<url>` continues to work exactly as
 before, for authorized Founder-dataset visual validation using an external
-URL — unaffected by the demo dataset swap.
+URL — unaffected by either of the above.
 
 ## What this repository does NOT contain
 
