@@ -4,27 +4,7 @@ import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-
-// Deployment-only adapter. It does not touch any file under
-// world-earth-homepage-v1/ on disk. It rewrites, at build time only,
-// root-relative asset path string literals (e.g. '/textures/...',
-// '/data/...', '/world-earth-homepage-v1/...') so they resolve correctly
-// under the GitHub Pages project subpath. The source files committed to
-// travel-earth-engine remain byte-identical; only the built output differs.
-const rootRelativePathRewrite = {
-  name: 'root-relative-path-rewrite-for-pages-base',
-  transform(code, id) {
-    if (!id.includes('/world-earth-homepage-v1/')) return null
-    if (!/['"`]\/(textures|data|world-earth-homepage-v1)\//.test(code)) return null
-    const base = this.environment?.config?.base ?? '/world-earth-homepage-preview/'
-    const prefix = base.endsWith('/') ? base.slice(0, -1) : base
-    const rewritten = code.replace(
-      /(['"`])\/(textures|data|world-earth-homepage-v1)\//g,
-      (_match, quote, dir) => `${quote}${prefix}/${dir}/`,
-    )
-    return { code: rewritten, map: null }
-  },
-}
+const PAGES_BASE = '/world-earth-homepage-preview/'
 
 // Deployment-only adapter. fixtures/ is fetched at runtime by string path
 // (not imported as an ES module), so Vite's bundler cannot see it and
@@ -41,47 +21,56 @@ const copyFixturesToOutput = {
   },
 }
 
-// Deployment-only adapter. Photo `src` values for fixture/Founder records
-// arrive as runtime DATA (fetched JSON), not as string literals in any .js
-// file, so the build-time text transform above cannot reach them — and
-// source-policy.js must keep validating the original, un-prefixed string
-// (e.g. '/world-earth-homepage-v1/fixtures/media/asia-1.svg') or its
-// allow-list check would reject every record. This injects one small
-// inline script into the built HTML only (the committed index.html on
-// GitHub is never touched) that intercepts `HTMLImageElement.src` writes
-// and prepends the Pages base solely for network resolution, leaving the
-// application's own string values — and therefore its validation — the
-// same as the version already reviewed.
-const injectImageSrcBaseAdapter = {
-  name: 'inject-image-src-base-adapter',
+// Deployment-only adapter. No file under world-earth-homepage-v1/ is
+// modified, at build time or otherwise — no text rewriting of any source
+// string happens anywhere. `source-policy.js` therefore keeps validating
+// exactly the same root-relative strings (e.g.
+// '/world-earth-homepage-v1/fixtures/media/asia-1.svg',
+// '/data/homepage-complete-expression-v1/...') it validated in the version
+// already reviewed, whether that string came from a literal in a .js file
+// or from fetched JSON data (fixture-dataset.json / a manifest's own
+// tier.url field) — both cases behave identically to the reviewed build.
+//
+// Only the browser's actual network resolution is redirected: this
+// injects one inline script into the built HTML (the committed
+// world-earth-homepage-v1/index.html on GitHub is never touched) that
+// patches `window.fetch` and `HTMLImageElement.src` so that any of those
+// same root-relative strings resolve under the GitHub Pages project
+// subpath when the browser actually requests them. The application never
+// sees a rewritten value; only the wire request differs.
+const injectPagesBaseNetworkAdapter = {
+  name: 'inject-pages-base-network-adapter',
   transformIndexHtml: {
     order: 'pre',
-    handler(html, ctx) {
-      const base = ctx.server ? '/' : '/world-earth-homepage-preview/'
-      const prefix = base.endsWith('/') ? base.slice(0, -1) : base
+    handler(_html, ctx) {
+      const prefix = ctx.server ? '' : PAGES_BASE.slice(0, -1)
       const script = `<script>(function(){
   var BASE=${JSON.stringify(prefix)};
   var PREFIXES=['/world-earth-homepage-v1/','/textures/','/data/'];
-  var desc=Object.getOwnPropertyDescriptor(HTMLImageElement.prototype,'src');
-  Object.defineProperty(HTMLImageElement.prototype,'src',{configurable:true,enumerable:desc.enumerable,
-    get:function(){return desc.get.call(this)},
-    set:function(v){
-      if(typeof v==='string'&&BASE&&PREFIXES.some(function(p){return v.indexOf(p)===0})&&v.indexOf(BASE)!==0){v=BASE+v}
-      desc.set.call(this,v);
-    }});
+  function needsBase(v){return typeof v==='string'&&BASE&&PREFIXES.some(function(p){return v.indexOf(p)===0})&&v.indexOf(BASE)!==0}
+  var d=Object.getOwnPropertyDescriptor(HTMLImageElement.prototype,'src');
+  Object.defineProperty(HTMLImageElement.prototype,'src',{configurable:true,enumerable:d.enumerable,
+    get:function(){return d.get.call(this)},
+    set:function(v){d.set.call(this,needsBase(v)?BASE+v:v)}});
+  var origFetch=window.fetch.bind(window);
+  window.fetch=function(input,init){
+    if(typeof input==='string'&&needsBase(input))input=BASE+input;
+    else if(input&&typeof input==='object'&&typeof input.url==='string'&&needsBase(input.url))input=BASE+input.url;
+    return origFetch(input,init);
+  };
 })();</script>`
-      return html.replace('<head>', `<head>\n    ${script}`)
+      return [{ tag: 'script', injectTo: 'head-prepend', children: script.replace(/^<script>|<\/script>$/g, '') }]
     },
   },
 }
 
 export default defineConfig({
-  base: '/world-earth-homepage-preview/',
+  base: PAGES_BASE,
   root: '.',
   build: {
     rollupOptions: {
       input: 'world-earth-homepage-v1/index.html',
     },
   },
-  plugins: [rootRelativePathRewrite, copyFixturesToOutput, injectImageSrcBaseAdapter],
+  plugins: [copyFixturesToOutput, injectPagesBaseNetworkAdapter],
 })
