@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="400" viewBox="0 0 320 400">
+  <defs>
+    <linearGradient id="g29" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#25283d"/>
+      <stop offset="1" stop-color="#8f3985"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="400" fill="url(#g29)"/>
+  <rect x="118.6" y="172.4" width="82.8" height="55.199999999999996" rx="5.52" fill="none" stroke="#fff" stroke-width="3.68" opacity="0.9"/><circle cx="160.0" cy="200.0" r="19.32" fill="none" stroke="#fff" stroke-width="3.68" opacity="0.9"/><circle cx="160.0" cy="200.0" r="7.36" fill="#fff" opacity="0.9"/>
+  <text x="160.0" y="376" font-family="sans-serif" font-size="13" fill="#ffffff" opacity="0.55" text-anchor="middle">World Earth Public Demo</text>
+</svg>
