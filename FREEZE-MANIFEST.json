@@ -1,0 +1,1131 @@
+{
+  "schema": "world-earth-freeze-manifest-v1",
+  "version": "WORLD_EARTH_HOMEPAGE_CROSS_PLATFORM_BASELINE_V1",
+  "generatedAt": "2026-08-14T04:22:54.385Z",
+  "sourceCommit": "a7aff758370cbfef09c7c65cca3cf2658883e7f8",
+  "node": "20.x",
+  "packageManager": "npm",
+  "fingerprintRule": "SHA-256 over raw file bytes; generated manifests excluded from their own file list; node_modules, dist, .git and ZIP excluded",
+  "fileCount": 223,
+  "totalBytes": 67837696,
+  "photoCount": 159,
+  "datasetRecordCount": 159,
+  "datasetSha256": "306f6cef36edead01cf849827d94bbe64b4199e71e2ddd816ff7ee7dfb9a11d0",
+  "files": [
+    {
+      "path": ".github/workflows/deploy-pages.yml",
+      "bytes": 859,
+      "sha256": "ae0f631260058a90b9fabf6ed61b36bcdbef9078c47f743ae565477d36658f5b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 46,
+      "sha256": "9838298df7da434282d932c1f1bc92f0ba763f7009c9c502ea8a5d22cbaf3531"
+    },
+    {
+      "path": ".nvmrc",
+      "bytes": 3,
+      "sha256": "5378796307535df3ec8d8b15a2e2dc5641419c3d3060cfe32238c0fa973f7aa3"
+    },
+    {
+      "path": "BUILD-VERIFICATION.md",
+      "bytes": 2104,
+      "sha256": "e1b9682a16cb1fec6dc12e7d8468a31c6739099d088ac36d8bb9852b902aaff0"
+    },
+    {
+      "path": "CLAUDE-AUDIT-HANDOFF.md",
+      "bytes": 2055,
+      "sha256": "4de577e791dfc0def0efa14e918e5cac93207d6a5e53fffcaabd8d69e07f727f"
+    },
+    {
+      "path": "PRIVATE-DATA-NOTICE.md",
+      "bytes": 335,
+      "sha256": "53b71c2b8cc9faec9f1acff4d5b99afc2feebe4516682404a73f039f5963c000"
+    },
+    {
+      "path": "README.md",
+      "bytes": 722,
+      "sha256": "f3f3a18231f231ef37c0b3641d21044dcbb49680f7967cafc42bfa5740a4b226"
+    },
+    {
+      "path": "VISUAL-BASELINE.md",
+      "bytes": 910,
+      "sha256": "2ea64fc96e13481661ab9d70fe45602338febae40bb7290680baec6483418431"
+    },
+    {
+      "path": "evidence/founder-desktop-1280x720.png",
+      "bytes": 108900,
+      "sha256": "f1b316912595c81eb03a475ae90eaef20e524018a8818a2e1a91731cc02a7728"
+    },
+    {
+      "path": "evidence/founder-mobile-390x844.png",
+      "bytes": 62133,
+      "sha256": "b21366f0648f1e8fa936b66c8ac915cc06fa82cfaefac7bdd36fcb3ee5f1699e"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1506,
+      "sha256": "c757015b0828d8fab7565498d283e1fe18277e577563aaef5fa382b40fb87025"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 35206,
+      "sha256": "c6f8e967d6c5a3b177137e3a8350fb4e9cf3ac8ace832b7d584f34e7ef5f045c"
+    },
+    {
+      "path": "package.json",
+      "bytes": 513,
+      "sha256": "2c2bc4830e897e20eb69bf28bcad9455675042ff461e8fc58bdf487d79cb597d"
+    },
+    {
+      "path": "public/data/aurora-volumetric-v5/historical-event.json",
+      "bytes": 64079,
+      "sha256": "dbdc155bb1deabfc4ed7d1bc64ea28df9b7bf5db8ded3afa8bbded0127fff90f"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/black-marble/black-marble-2016-16384x8192-gray.jpg",
+      "bytes": 4317621,
+      "sha256": "b62c32bcde2e2156eb5f86b7562df452f3a499697d5b68efe05b6bb58feeeef0"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/black-marble/black-marble-2016-8192x4096-gray.jpg",
+      "bytes": 1459100,
+      "sha256": "fe3d5a4b1b21aa691041697b5188cb2699325a5d093247c5403e778fefcfa0bf"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/black-marble/black-marble-2016-fact-derived-network-5400.png",
+      "bytes": 646768,
+      "sha256": "396be82eabb3f9687b33a79c416c1aa50787462267e163b8e4ce5d764cfa1e10"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/eog-vnl-2020/eog-vnl-2020-median-masked-sqrt-10000x5000.png",
+      "bytes": 1728151,
+      "sha256": "3b7e0f9b9e123b46023c33f2181bec4562a8a6ac5225c07d29a9776b76d1aaa4"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/eog-vnl-2020/eog-vnl-2020-median-masked-sqrt-8192x4096.png",
+      "bytes": 1948148,
+      "sha256": "362fc1cd5415ba76bdb26ee2f0b8ddda14843c658fbd4a9a3a7649aa266466fc"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/eog-vnl-2020/source-manifest.json",
+      "bytes": 1124,
+      "sha256": "c1db553bb894c8d6c5a57e35b64f59fd782fa52ccb8301cc84daef91afedb9c4"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/grip4-global-road-density.png",
+      "bytes": 3918212,
+      "sha256": "39c3607822a3fc70bb21ae42a9e703c91d8eac9fecb90652a1d73ca8cf764d69"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/esa-worldcover-2021-v200-2048x1024.png",
+      "bytes": 204611,
+      "sha256": "02c8cbdcfeea4e1c823033bb463f0c0d813fa36b288b5073e7b0555bdf60006f"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/esa-worldcover-2021-v200-4096x2048.png",
+      "bytes": 673381,
+      "sha256": "769267b2224fec1e6ca9aded7bbca07f1d905ae81f5174df73d355c5544dcba0"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/gebco-2026-tid-runtime-manifest.json",
+      "bytes": 1749,
+      "sha256": "b1c63e885680e52da360e927220587db83a6504194d0a675502762e9d561ff78"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/nasa-topography-bathymetry-4096x2048.jpg",
+      "bytes": 1313095,
+      "sha256": "69e1ffee58af352ceccc54fded4d2e36e64a6edb9faa391d23a0eb1de1b250de"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/nasa-topography-bathymetry-8192x4096.jpg",
+      "bytes": 4481860,
+      "sha256": "7cb8f265ec9de03b64b250add27c451f42de9f437b78100d42c38a4046393047"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/natural-earth-land-mask-4096x2048.png",
+      "bytes": 87579,
+      "sha256": "484fe875ba51c1a2cccc7c11918e904f460114bce76e964cfefa7313418c1523"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/natural-earth-land-mask-8192x4096.png",
+      "bytes": 173172,
+      "sha256": "ce251bee4981d685d674428788c6a86de4c2e270c84dee5c719042cfb3ca016f"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/noaa-etopo-2022-terrain-2048x1024.png",
+      "bytes": 7568013,
+      "sha256": "eb9badc8ea7d73c9c14d897aecd612955d0c22a4f65f775b5716edc03a4cf462"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/noaa-etopo-2022-terrain-4096x2048.png",
+      "bytes": 23928560,
+      "sha256": "578c7a02b7b04b127e5ced7963c6720f7fc618a34673c4c9b7eccc26751d32a3"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/surface-albedo-2048x1024.jpg",
+      "bytes": 421025,
+      "sha256": "a250bb81a6a1889c41ebd9a740eb365a7d4ded67251d2b56d63f0475e15c3b20"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/ne_110m_admin_0_countries.geojson",
+      "bytes": 838726,
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f"
+    },
+    {
+      "path": "public/datasets/fixture-v1/dataset.json",
+      "bytes": 4533,
+      "sha256": "ea10e90f07a812a3407910daad916b8b99b9a0c4657b485daeaed7aa2c5c92e7"
+    },
+    {
+      "path": "public/datasets/fixture-v1/photos/asia-1.svg",
+      "bytes": 218,
+      "sha256": "332fabb54dc33f7c5050bdab7e6b6a980981c1f28e35b9c21a04bf432fafaedf"
+    },
+    {
+      "path": "public/datasets/fixture-v1/photos/asia-2.svg",
+      "bytes": 218,
+      "sha256": "b813af6aedd9987220328afeb83dfb3846c63eb13b0b5fadae47deb60fb745cc"
+    },
+    {
+      "path": "public/datasets/fixture-v1/photos/europe-1.svg",
+      "bytes": 218,
+      "sha256": "83b5e6403becd5a6336a9054b86e3d374febba5e649e7831ed663ab4d652e252"
+    },
+    {
+      "path": "public/datasets/fixture-v1/photos/europe-2.svg",
+      "bytes": 218,
+      "sha256": "b4fe035d32fcaa1ee0de0bd801485ba8296a149e273208f0efaf7a7b2d2d8529"
+    },
+    {
+      "path": "public/datasets/fixture-v1/photos/north-america-1.svg",
+      "bytes": 218,
+      "sha256": "f7bc259f57af0880b6e6c913660e8522743fcd96765bdac0ddd4d3ca5a69e758"
+    },
+    {
+      "path": "public/datasets/fixture-v1/photos/north-america-2.svg",
+      "bytes": 218,
+      "sha256": "e42aba19c139d912a60d87eeb41172ae1b324cc26f9a08593d78b7aec27d9c6b"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/dataset.json",
+      "bytes": 241204,
+      "sha256": "306f6cef36edead01cf849827d94bbe64b4199e71e2ddd816ff7ee7dfb9a11d0"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/001-landmark-photo-001.jpg",
+      "bytes": 61906,
+      "sha256": "ecfde8e5be9b09dfaacd80a5ef6565efb0db33494d98886b32ab50186427f09f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/002-landmark-photo-002.jpg",
+      "bytes": 41828,
+      "sha256": "3b71af99014677f82b1113094f1eb53f9975f19d3e2968940d94566088650e7f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/003-landmark-photo-003.jpg",
+      "bytes": 42934,
+      "sha256": "75b1f8e90831f38b84f97bedd99e8d1dcb79ffc5636b98fe28aa584cb3e2a905"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/004-landmark-photo-004.jpg",
+      "bytes": 60509,
+      "sha256": "8ae4b7d38228037e5e8cfdea86805b2a8ac8137ab1f1b2fb604a53aa3096abe9"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/005-landmark-photo-005.jpg",
+      "bytes": 43995,
+      "sha256": "663ae45f1efba2c659626dbe350c3d5312700b5f28d36f6663c7bef2d6e6bf28"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/006-landmark-photo-006.jpg",
+      "bytes": 42841,
+      "sha256": "493532fd4aa0571fd4f93c30832967791f35365486a3d263fa061e9eaa62af32"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/007-landmark-photo-007.jpg",
+      "bytes": 37250,
+      "sha256": "8b2b21da9d0dad770bb12a210a4f993bef1e57e8355410b3a5a98517f86aefcb"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/008-landmark-photo-008.jpg",
+      "bytes": 46911,
+      "sha256": "1347867ad3cb00376700823d208ee3ab03fa89ab7cddc3f65118fb99c07d29e5"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/009-landmark-photo-009.jpg",
+      "bytes": 43119,
+      "sha256": "9f8236e377ed19300b3cb0c6e0487d65f5cb37e2c03e23433a7ee2592c99d345"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/010-landmark-photo-010.jpg",
+      "bytes": 35163,
+      "sha256": "9bd177c5e450eae6b1cca2702e0b9ed4d176bd704c53834ed8394d95fd8a6428"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/011-landmark-photo-011.jpg",
+      "bytes": 36893,
+      "sha256": "3ab111955a81d364de8fc2b9b6f9a46710a8d3bfec015491bf111b878216b30f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/012-landmark-photo-012.jpg",
+      "bytes": 37319,
+      "sha256": "318d2250e948a1aa79dc6b59f1002fedb8f43259c901dfa47d26e64cba12a52e"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/013-landmark-photo-013.jpg",
+      "bytes": 30318,
+      "sha256": "c455ae7d771ee334fc1741237aad22ac16c21faae435a8b0903b1386c8646fdf"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/014-landmark-photo-014.jpg",
+      "bytes": 33583,
+      "sha256": "eb580d1b0914fd1878e79d2ef036d107efb593beecee1e0f35111623d5cd5939"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/015-landmark-photo-015.jpg",
+      "bytes": 56402,
+      "sha256": "ec6c02572ab90336d96f731e7cd93a3b19fd3aa5aa357feaa93f67d32434f07d"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/016-landmark-photo-016.jpg",
+      "bytes": 54811,
+      "sha256": "1771945fd742bd2d7fe3ca9cd8bdd51e0b9568aac77cdab592a1c225f98d4482"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/017-landmark-photo-017.jpg",
+      "bytes": 45081,
+      "sha256": "281737b19ff95d071d7770d18708662d46816bfafcd86836cae8d870f326ed93"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/018-landmark-photo-018.jpg",
+      "bytes": 42478,
+      "sha256": "723129c367cc92be099cd2c74d44e35f2f9f06ca0f0dcbdd8c45c5f4130c18ff"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/019-landmark-photo-019.jpg",
+      "bytes": 53040,
+      "sha256": "b353962c46950dd43d58e66493eb39da8b95db6065ac5baa4c12afe8134a703b"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/020-landmark-photo-020.jpg",
+      "bytes": 45987,
+      "sha256": "7ce218f7101e3b0ca1847a4f5f8db98fa8780e31d7c8e8f4fdaa41f79830f9c7"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/021-landmark-photo-021.jpg",
+      "bytes": 53146,
+      "sha256": "3d59edfbfa542a0e0e59e42b2f312ab666cc0b6efa94bb194d385141d1078e80"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/022-landmark-photo-022.jpg",
+      "bytes": 41688,
+      "sha256": "103fcde0464ea53bc2033fb4ab7a63c3dfcef3d97a439d1b517084247a2159c4"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/023-landmark-photo-023.jpg",
+      "bytes": 50329,
+      "sha256": "46b5a764b1cea5e01a47c799d0f94e3f4dad77085526198b7c0e8208df4e438f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/024-landmark-photo-024.jpg",
+      "bytes": 42600,
+      "sha256": "8dbdb749b4c497a54b5313d76f620ecb093fcd073eb023ac4dab268656de1501"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/025-landmark-photo-025.jpg",
+      "bytes": 40577,
+      "sha256": "80eb49c62a948e67f6e9c3d297d817522ba33080bd7525e46cc25b578e38d0d3"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/026-landmark-photo-026.jpg",
+      "bytes": 46988,
+      "sha256": "08eef408e95f7147ad1b9d10e837cec6e2b9538585d1665e3dc82e28abe841fb"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/027-landmark-photo-027.jpg",
+      "bytes": 33641,
+      "sha256": "18990438f0a56c3bb560455b1916053766da40ff5c0480883c685365a3884148"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/028-landmark-photo-028.jpg",
+      "bytes": 42119,
+      "sha256": "db92aca974557cfb883e7f242809a70cfa02abdea20f03a949d0f21ddba0567d"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/029-landmark-photo-029.jpg",
+      "bytes": 39366,
+      "sha256": "7cec1ceb7ec31a1724889e9a665e5415c5f20d0501d54ded2bc3a0304983f6fd"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/030-landmark-photo-030.jpg",
+      "bytes": 35867,
+      "sha256": "5502d36ab03471c7d0f9974839c119e8b2fc2c76bf4dcdeb81e5e3308f0330c7"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/031-landmark-photo-031.jpg",
+      "bytes": 39620,
+      "sha256": "9366e8b59663e99ced304e6b67d906ebb4ae8cb44d456c429a435b143ec3aeb3"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/032-landmark-photo-032.jpg",
+      "bytes": 27593,
+      "sha256": "a7ab0eb0ab30ff8cb29906ee8d80ca4c52074e9025830dd476e14ae0b04e5d2b"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/033-landmark-photo-033.jpg",
+      "bytes": 56402,
+      "sha256": "ec6c02572ab90336d96f731e7cd93a3b19fd3aa5aa357feaa93f67d32434f07d"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/034-landmark-photo-034.jpg",
+      "bytes": 61906,
+      "sha256": "ecfde8e5be9b09dfaacd80a5ef6565efb0db33494d98886b32ab50186427f09f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/035-landmark-photo-035.jpg",
+      "bytes": 41828,
+      "sha256": "3b71af99014677f82b1113094f1eb53f9975f19d3e2968940d94566088650e7f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/036-landmark-photo-036.jpg",
+      "bytes": 42934,
+      "sha256": "75b1f8e90831f38b84f97bedd99e8d1dcb79ffc5636b98fe28aa584cb3e2a905"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/037-landmark-photo-037.jpg",
+      "bytes": 60509,
+      "sha256": "8ae4b7d38228037e5e8cfdea86805b2a8ac8137ab1f1b2fb604a53aa3096abe9"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/038-landmark-photo-038.jpg",
+      "bytes": 43995,
+      "sha256": "663ae45f1efba2c659626dbe350c3d5312700b5f28d36f6663c7bef2d6e6bf28"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/039-landmark-photo-039.jpg",
+      "bytes": 42841,
+      "sha256": "493532fd4aa0571fd4f93c30832967791f35365486a3d263fa061e9eaa62af32"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/040-landmark-photo-040.jpg",
+      "bytes": 37250,
+      "sha256": "8b2b21da9d0dad770bb12a210a4f993bef1e57e8355410b3a5a98517f86aefcb"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/041-landmark-photo-041.jpg",
+      "bytes": 46911,
+      "sha256": "1347867ad3cb00376700823d208ee3ab03fa89ab7cddc3f65118fb99c07d29e5"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/042-landmark-photo-042.jpg",
+      "bytes": 43119,
+      "sha256": "9f8236e377ed19300b3cb0c6e0487d65f5cb37e2c03e23433a7ee2592c99d345"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/043-landmark-photo-043.jpg",
+      "bytes": 35163,
+      "sha256": "9bd177c5e450eae6b1cca2702e0b9ed4d176bd704c53834ed8394d95fd8a6428"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/044-landmark-photo-044.jpg",
+      "bytes": 36893,
+      "sha256": "3ab111955a81d364de8fc2b9b6f9a46710a8d3bfec015491bf111b878216b30f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/045-landmark-photo-045.jpg",
+      "bytes": 37319,
+      "sha256": "318d2250e948a1aa79dc6b59f1002fedb8f43259c901dfa47d26e64cba12a52e"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/046-landmark-photo-046.jpg",
+      "bytes": 30318,
+      "sha256": "c455ae7d771ee334fc1741237aad22ac16c21faae435a8b0903b1386c8646fdf"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/047-landmark-photo-047.jpg",
+      "bytes": 33583,
+      "sha256": "eb580d1b0914fd1878e79d2ef036d107efb593beecee1e0f35111623d5cd5939"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/048-landmark-photo-048.jpg",
+      "bytes": 56402,
+      "sha256": "ec6c02572ab90336d96f731e7cd93a3b19fd3aa5aa357feaa93f67d32434f07d"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/049-landmark-photo-049.jpg",
+      "bytes": 54811,
+      "sha256": "1771945fd742bd2d7fe3ca9cd8bdd51e0b9568aac77cdab592a1c225f98d4482"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/050-landmark-photo-050.jpg",
+      "bytes": 45081,
+      "sha256": "281737b19ff95d071d7770d18708662d46816bfafcd86836cae8d870f326ed93"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/051-landmark-photo-051.jpg",
+      "bytes": 42478,
+      "sha256": "723129c367cc92be099cd2c74d44e35f2f9f06ca0f0dcbdd8c45c5f4130c18ff"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/052-landmark-photo-052.jpg",
+      "bytes": 53040,
+      "sha256": "b353962c46950dd43d58e66493eb39da8b95db6065ac5baa4c12afe8134a703b"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/053-landmark-photo-053.jpg",
+      "bytes": 45987,
+      "sha256": "7ce218f7101e3b0ca1847a4f5f8db98fa8780e31d7c8e8f4fdaa41f79830f9c7"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/054-landmark-photo-054.jpg",
+      "bytes": 53146,
+      "sha256": "3d59edfbfa542a0e0e59e42b2f312ab666cc0b6efa94bb194d385141d1078e80"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/055-landmark-photo-055.jpg",
+      "bytes": 41688,
+      "sha256": "103fcde0464ea53bc2033fb4ab7a63c3dfcef3d97a439d1b517084247a2159c4"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/056-landmark-photo-056.jpg",
+      "bytes": 50329,
+      "sha256": "46b5a764b1cea5e01a47c799d0f94e3f4dad77085526198b7c0e8208df4e438f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/057-landmark-photo-057.jpg",
+      "bytes": 42600,
+      "sha256": "8dbdb749b4c497a54b5313d76f620ecb093fcd073eb023ac4dab268656de1501"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/058-landmark-photo-058.jpg",
+      "bytes": 40577,
+      "sha256": "80eb49c62a948e67f6e9c3d297d817522ba33080bd7525e46cc25b578e38d0d3"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/059-landmark-photo-059.jpg",
+      "bytes": 46988,
+      "sha256": "08eef408e95f7147ad1b9d10e837cec6e2b9538585d1665e3dc82e28abe841fb"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/060-landmark-photo-060.jpg",
+      "bytes": 33641,
+      "sha256": "18990438f0a56c3bb560455b1916053766da40ff5c0480883c685365a3884148"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/061-landmark-photo-061.jpg",
+      "bytes": 42119,
+      "sha256": "db92aca974557cfb883e7f242809a70cfa02abdea20f03a949d0f21ddba0567d"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/062-landmark-photo-062.jpg",
+      "bytes": 39366,
+      "sha256": "7cec1ceb7ec31a1724889e9a665e5415c5f20d0501d54ded2bc3a0304983f6fd"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/063-landmark-photo-063.jpg",
+      "bytes": 35867,
+      "sha256": "5502d36ab03471c7d0f9974839c119e8b2fc2c76bf4dcdeb81e5e3308f0330c7"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/064-cinematic-photo-001.jpg",
+      "bytes": 37319,
+      "sha256": "318d2250e948a1aa79dc6b59f1002fedb8f43259c901dfa47d26e64cba12a52e"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/065-cinematic-photo-002.jpg",
+      "bytes": 30318,
+      "sha256": "c455ae7d771ee334fc1741237aad22ac16c21faae435a8b0903b1386c8646fdf"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/066-cinematic-photo-003.jpg",
+      "bytes": 33583,
+      "sha256": "eb580d1b0914fd1878e79d2ef036d107efb593beecee1e0f35111623d5cd5939"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/067-cinematic-photo-004.jpg",
+      "bytes": 56402,
+      "sha256": "ec6c02572ab90336d96f731e7cd93a3b19fd3aa5aa357feaa93f67d32434f07d"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/068-cinematic-photo-005.jpg",
+      "bytes": 54811,
+      "sha256": "1771945fd742bd2d7fe3ca9cd8bdd51e0b9568aac77cdab592a1c225f98d4482"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/069-cinematic-photo-006.jpg",
+      "bytes": 45081,
+      "sha256": "281737b19ff95d071d7770d18708662d46816bfafcd86836cae8d870f326ed93"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/070-cinematic-photo-007.jpg",
+      "bytes": 42478,
+      "sha256": "723129c367cc92be099cd2c74d44e35f2f9f06ca0f0dcbdd8c45c5f4130c18ff"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/071-cinematic-photo-008.jpg",
+      "bytes": 53040,
+      "sha256": "b353962c46950dd43d58e66493eb39da8b95db6065ac5baa4c12afe8134a703b"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/072-cinematic-photo-009.jpg",
+      "bytes": 45987,
+      "sha256": "7ce218f7101e3b0ca1847a4f5f8db98fa8780e31d7c8e8f4fdaa41f79830f9c7"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/073-cinematic-photo-010.jpg",
+      "bytes": 53146,
+      "sha256": "3d59edfbfa542a0e0e59e42b2f312ab666cc0b6efa94bb194d385141d1078e80"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/074-cinematic-photo-011.jpg",
+      "bytes": 41688,
+      "sha256": "103fcde0464ea53bc2033fb4ab7a63c3dfcef3d97a439d1b517084247a2159c4"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/075-cinematic-photo-012.jpg",
+      "bytes": 50329,
+      "sha256": "46b5a764b1cea5e01a47c799d0f94e3f4dad77085526198b7c0e8208df4e438f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/076-cinematic-photo-013.jpg",
+      "bytes": 42600,
+      "sha256": "8dbdb749b4c497a54b5313d76f620ecb093fcd073eb023ac4dab268656de1501"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/077-cinematic-photo-014.jpg",
+      "bytes": 40577,
+      "sha256": "80eb49c62a948e67f6e9c3d297d817522ba33080bd7525e46cc25b578e38d0d3"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/078-cinematic-photo-015.jpg",
+      "bytes": 46988,
+      "sha256": "08eef408e95f7147ad1b9d10e837cec6e2b9538585d1665e3dc82e28abe841fb"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/079-cinematic-photo-016.jpg",
+      "bytes": 33641,
+      "sha256": "18990438f0a56c3bb560455b1916053766da40ff5c0480883c685365a3884148"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/080-cinematic-photo-017.jpg",
+      "bytes": 42119,
+      "sha256": "db92aca974557cfb883e7f242809a70cfa02abdea20f03a949d0f21ddba0567d"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/081-cinematic-photo-018.jpg",
+      "bytes": 39366,
+      "sha256": "7cec1ceb7ec31a1724889e9a665e5415c5f20d0501d54ded2bc3a0304983f6fd"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/082-cinematic-photo-019.jpg",
+      "bytes": 35867,
+      "sha256": "5502d36ab03471c7d0f9974839c119e8b2fc2c76bf4dcdeb81e5e3308f0330c7"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/083-cinematic-photo-020.jpg",
+      "bytes": 39620,
+      "sha256": "9366e8b59663e99ced304e6b67d906ebb4ae8cb44d456c429a435b143ec3aeb3"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/084-cinematic-photo-021.jpg",
+      "bytes": 27593,
+      "sha256": "a7ab0eb0ab30ff8cb29906ee8d80ca4c52074e9025830dd476e14ae0b04e5d2b"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/085-cinematic-photo-022.jpg",
+      "bytes": 56402,
+      "sha256": "ec6c02572ab90336d96f731e7cd93a3b19fd3aa5aa357feaa93f67d32434f07d"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/086-cinematic-photo-023.jpg",
+      "bytes": 61906,
+      "sha256": "ecfde8e5be9b09dfaacd80a5ef6565efb0db33494d98886b32ab50186427f09f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/087-cinematic-photo-024.jpg",
+      "bytes": 41828,
+      "sha256": "3b71af99014677f82b1113094f1eb53f9975f19d3e2968940d94566088650e7f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/088-cinematic-photo-025.jpg",
+      "bytes": 42934,
+      "sha256": "75b1f8e90831f38b84f97bedd99e8d1dcb79ffc5636b98fe28aa584cb3e2a905"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/089-cinematic-photo-026.jpg",
+      "bytes": 60509,
+      "sha256": "8ae4b7d38228037e5e8cfdea86805b2a8ac8137ab1f1b2fb604a53aa3096abe9"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/090-cinematic-photo-027.jpg",
+      "bytes": 43995,
+      "sha256": "663ae45f1efba2c659626dbe350c3d5312700b5f28d36f6663c7bef2d6e6bf28"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/091-cinematic-photo-028.jpg",
+      "bytes": 42841,
+      "sha256": "493532fd4aa0571fd4f93c30832967791f35365486a3d263fa061e9eaa62af32"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/092-cinematic-photo-029.jpg",
+      "bytes": 37250,
+      "sha256": "8b2b21da9d0dad770bb12a210a4f993bef1e57e8355410b3a5a98517f86aefcb"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/093-cinematic-photo-030.jpg",
+      "bytes": 46911,
+      "sha256": "1347867ad3cb00376700823d208ee3ab03fa89ab7cddc3f65118fb99c07d29e5"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/094-cinematic-photo-031.jpg",
+      "bytes": 43119,
+      "sha256": "9f8236e377ed19300b3cb0c6e0487d65f5cb37e2c03e23433a7ee2592c99d345"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/095-cinematic-photo-032.jpg",
+      "bytes": 35163,
+      "sha256": "9bd177c5e450eae6b1cca2702e0b9ed4d176bd704c53834ed8394d95fd8a6428"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/096-cinematic-photo-033.jpg",
+      "bytes": 36893,
+      "sha256": "3ab111955a81d364de8fc2b9b6f9a46710a8d3bfec015491bf111b878216b30f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/097-cinematic-photo-034.jpg",
+      "bytes": 37319,
+      "sha256": "318d2250e948a1aa79dc6b59f1002fedb8f43259c901dfa47d26e64cba12a52e"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/098-cinematic-photo-035.jpg",
+      "bytes": 30318,
+      "sha256": "c455ae7d771ee334fc1741237aad22ac16c21faae435a8b0903b1386c8646fdf"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/099-cinematic-photo-036.jpg",
+      "bytes": 33583,
+      "sha256": "eb580d1b0914fd1878e79d2ef036d107efb593beecee1e0f35111623d5cd5939"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/100-cinematic-photo-037.jpg",
+      "bytes": 56402,
+      "sha256": "ec6c02572ab90336d96f731e7cd93a3b19fd3aa5aa357feaa93f67d32434f07d"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/101-cinematic-photo-038.jpg",
+      "bytes": 54811,
+      "sha256": "1771945fd742bd2d7fe3ca9cd8bdd51e0b9568aac77cdab592a1c225f98d4482"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/102-cinematic-photo-039.jpg",
+      "bytes": 45081,
+      "sha256": "281737b19ff95d071d7770d18708662d46816bfafcd86836cae8d870f326ed93"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/103-cinematic-photo-040.jpg",
+      "bytes": 42478,
+      "sha256": "723129c367cc92be099cd2c74d44e35f2f9f06ca0f0dcbdd8c45c5f4130c18ff"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/104-cinematic-photo-041.jpg",
+      "bytes": 53040,
+      "sha256": "b353962c46950dd43d58e66493eb39da8b95db6065ac5baa4c12afe8134a703b"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/105-cinematic-photo-042.jpg",
+      "bytes": 45987,
+      "sha256": "7ce218f7101e3b0ca1847a4f5f8db98fa8780e31d7c8e8f4fdaa41f79830f9c7"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/106-cinematic-photo-043.jpg",
+      "bytes": 53146,
+      "sha256": "3d59edfbfa542a0e0e59e42b2f312ab666cc0b6efa94bb194d385141d1078e80"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/107-cinematic-photo-044.jpg",
+      "bytes": 41688,
+      "sha256": "103fcde0464ea53bc2033fb4ab7a63c3dfcef3d97a439d1b517084247a2159c4"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/108-cinematic-photo-045.jpg",
+      "bytes": 50329,
+      "sha256": "46b5a764b1cea5e01a47c799d0f94e3f4dad77085526198b7c0e8208df4e438f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/109-cinematic-photo-046.jpg",
+      "bytes": 42600,
+      "sha256": "8dbdb749b4c497a54b5313d76f620ecb093fcd073eb023ac4dab268656de1501"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/110-cinematic-photo-047.jpg",
+      "bytes": 40577,
+      "sha256": "80eb49c62a948e67f6e9c3d297d817522ba33080bd7525e46cc25b578e38d0d3"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/111-cinematic-photo-048.jpg",
+      "bytes": 46988,
+      "sha256": "08eef408e95f7147ad1b9d10e837cec6e2b9538585d1665e3dc82e28abe841fb"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/112-cinematic-photo-049.jpg",
+      "bytes": 33641,
+      "sha256": "18990438f0a56c3bb560455b1916053766da40ff5c0480883c685365a3884148"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/113-cinematic-photo-050.jpg",
+      "bytes": 42119,
+      "sha256": "db92aca974557cfb883e7f242809a70cfa02abdea20f03a949d0f21ddba0567d"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/114-cinematic-photo-051.jpg",
+      "bytes": 39366,
+      "sha256": "7cec1ceb7ec31a1724889e9a665e5415c5f20d0501d54ded2bc3a0304983f6fd"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/115-cinematic-photo-052.jpg",
+      "bytes": 35867,
+      "sha256": "5502d36ab03471c7d0f9974839c119e8b2fc2c76bf4dcdeb81e5e3308f0330c7"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/116-cinematic-photo-053.jpg",
+      "bytes": 39620,
+      "sha256": "9366e8b59663e99ced304e6b67d906ebb4ae8cb44d456c429a435b143ec3aeb3"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/117-cinematic-photo-054.jpg",
+      "bytes": 27593,
+      "sha256": "a7ab0eb0ab30ff8cb29906ee8d80ca4c52074e9025830dd476e14ae0b04e5d2b"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/118-cinematic-photo-055.jpg",
+      "bytes": 56402,
+      "sha256": "ec6c02572ab90336d96f731e7cd93a3b19fd3aa5aa357feaa93f67d32434f07d"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/119-cinematic-photo-056.jpg",
+      "bytes": 61906,
+      "sha256": "ecfde8e5be9b09dfaacd80a5ef6565efb0db33494d98886b32ab50186427f09f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/120-cinematic-photo-057.jpg",
+      "bytes": 41828,
+      "sha256": "3b71af99014677f82b1113094f1eb53f9975f19d3e2968940d94566088650e7f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/121-cinematic-photo-058.jpg",
+      "bytes": 42934,
+      "sha256": "75b1f8e90831f38b84f97bedd99e8d1dcb79ffc5636b98fe28aa584cb3e2a905"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/122-cinematic-photo-059.jpg",
+      "bytes": 60509,
+      "sha256": "8ae4b7d38228037e5e8cfdea86805b2a8ac8137ab1f1b2fb604a53aa3096abe9"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/123-cinematic-photo-060.jpg",
+      "bytes": 43995,
+      "sha256": "663ae45f1efba2c659626dbe350c3d5312700b5f28d36f6663c7bef2d6e6bf28"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/124-cinematic-photo-061.jpg",
+      "bytes": 42841,
+      "sha256": "493532fd4aa0571fd4f93c30832967791f35365486a3d263fa061e9eaa62af32"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/125-cinematic-photo-062.jpg",
+      "bytes": 37250,
+      "sha256": "8b2b21da9d0dad770bb12a210a4f993bef1e57e8355410b3a5a98517f86aefcb"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/126-cinematic-photo-063.jpg",
+      "bytes": 46911,
+      "sha256": "1347867ad3cb00376700823d208ee3ab03fa89ab7cddc3f65118fb99c07d29e5"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/127-cinematic-photo-064.jpg",
+      "bytes": 43119,
+      "sha256": "9f8236e377ed19300b3cb0c6e0487d65f5cb37e2c03e23433a7ee2592c99d345"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/128-cinematic-photo-065.jpg",
+      "bytes": 35163,
+      "sha256": "9bd177c5e450eae6b1cca2702e0b9ed4d176bd704c53834ed8394d95fd8a6428"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/129-cinematic-photo-066.jpg",
+      "bytes": 36893,
+      "sha256": "3ab111955a81d364de8fc2b9b6f9a46710a8d3bfec015491bf111b878216b30f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/130-cinematic-photo-067.jpg",
+      "bytes": 37319,
+      "sha256": "318d2250e948a1aa79dc6b59f1002fedb8f43259c901dfa47d26e64cba12a52e"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/131-cinematic-photo-068.jpg",
+      "bytes": 30318,
+      "sha256": "c455ae7d771ee334fc1741237aad22ac16c21faae435a8b0903b1386c8646fdf"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/132-cinematic-photo-069.jpg",
+      "bytes": 33583,
+      "sha256": "eb580d1b0914fd1878e79d2ef036d107efb593beecee1e0f35111623d5cd5939"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/133-cinematic-photo-070.jpg",
+      "bytes": 56402,
+      "sha256": "ec6c02572ab90336d96f731e7cd93a3b19fd3aa5aa357feaa93f67d32434f07d"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/134-cinematic-photo-071.jpg",
+      "bytes": 54811,
+      "sha256": "1771945fd742bd2d7fe3ca9cd8bdd51e0b9568aac77cdab592a1c225f98d4482"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/135-cinematic-photo-072.jpg",
+      "bytes": 45081,
+      "sha256": "281737b19ff95d071d7770d18708662d46816bfafcd86836cae8d870f326ed93"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/136-cinematic-photo-073.jpg",
+      "bytes": 42478,
+      "sha256": "723129c367cc92be099cd2c74d44e35f2f9f06ca0f0dcbdd8c45c5f4130c18ff"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/137-cinematic-photo-074.jpg",
+      "bytes": 53040,
+      "sha256": "b353962c46950dd43d58e66493eb39da8b95db6065ac5baa4c12afe8134a703b"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/138-cinematic-photo-075.jpg",
+      "bytes": 45987,
+      "sha256": "7ce218f7101e3b0ca1847a4f5f8db98fa8780e31d7c8e8f4fdaa41f79830f9c7"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/139-cinematic-photo-076.jpg",
+      "bytes": 53146,
+      "sha256": "3d59edfbfa542a0e0e59e42b2f312ab666cc0b6efa94bb194d385141d1078e80"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/140-cinematic-photo-077.jpg",
+      "bytes": 41688,
+      "sha256": "103fcde0464ea53bc2033fb4ab7a63c3dfcef3d97a439d1b517084247a2159c4"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/141-cinematic-photo-078.jpg",
+      "bytes": 50329,
+      "sha256": "46b5a764b1cea5e01a47c799d0f94e3f4dad77085526198b7c0e8208df4e438f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/142-cinematic-photo-079.jpg",
+      "bytes": 42600,
+      "sha256": "8dbdb749b4c497a54b5313d76f620ecb093fcd073eb023ac4dab268656de1501"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/143-cinematic-photo-080.jpg",
+      "bytes": 40577,
+      "sha256": "80eb49c62a948e67f6e9c3d297d817522ba33080bd7525e46cc25b578e38d0d3"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/144-cinematic-photo-081.jpg",
+      "bytes": 46988,
+      "sha256": "08eef408e95f7147ad1b9d10e837cec6e2b9538585d1665e3dc82e28abe841fb"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/145-cinematic-photo-082.jpg",
+      "bytes": 33641,
+      "sha256": "18990438f0a56c3bb560455b1916053766da40ff5c0480883c685365a3884148"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/146-cinematic-photo-083.jpg",
+      "bytes": 42119,
+      "sha256": "db92aca974557cfb883e7f242809a70cfa02abdea20f03a949d0f21ddba0567d"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/147-cinematic-photo-084.jpg",
+      "bytes": 39366,
+      "sha256": "7cec1ceb7ec31a1724889e9a665e5415c5f20d0501d54ded2bc3a0304983f6fd"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/148-cinematic-photo-085.jpg",
+      "bytes": 35867,
+      "sha256": "5502d36ab03471c7d0f9974839c119e8b2fc2c76bf4dcdeb81e5e3308f0330c7"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/149-cinematic-photo-086.jpg",
+      "bytes": 39620,
+      "sha256": "9366e8b59663e99ced304e6b67d906ebb4ae8cb44d456c429a435b143ec3aeb3"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/150-cinematic-photo-087.jpg",
+      "bytes": 27593,
+      "sha256": "a7ab0eb0ab30ff8cb29906ee8d80ca4c52074e9025830dd476e14ae0b04e5d2b"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/151-cinematic-photo-088.jpg",
+      "bytes": 56402,
+      "sha256": "ec6c02572ab90336d96f731e7cd93a3b19fd3aa5aa357feaa93f67d32434f07d"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/152-cinematic-photo-089.jpg",
+      "bytes": 61906,
+      "sha256": "ecfde8e5be9b09dfaacd80a5ef6565efb0db33494d98886b32ab50186427f09f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/153-cinematic-photo-090.jpg",
+      "bytes": 41828,
+      "sha256": "3b71af99014677f82b1113094f1eb53f9975f19d3e2968940d94566088650e7f"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/154-cinematic-photo-091.jpg",
+      "bytes": 42934,
+      "sha256": "75b1f8e90831f38b84f97bedd99e8d1dcb79ffc5636b98fe28aa584cb3e2a905"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/155-cinematic-photo-092.jpg",
+      "bytes": 60509,
+      "sha256": "8ae4b7d38228037e5e8cfdea86805b2a8ac8137ab1f1b2fb604a53aa3096abe9"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/156-cinematic-photo-093.jpg",
+      "bytes": 43995,
+      "sha256": "663ae45f1efba2c659626dbe350c3d5312700b5f28d36f6663c7bef2d6e6bf28"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/157-cinematic-photo-094.jpg",
+      "bytes": 42841,
+      "sha256": "493532fd4aa0571fd4f93c30832967791f35365486a3d263fa061e9eaa62af32"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/158-cinematic-photo-095.jpg",
+      "bytes": 37250,
+      "sha256": "8b2b21da9d0dad770bb12a210a4f993bef1e57e8355410b3a5a98517f86aefcb"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/photos/159-cinematic-photo-096.jpg",
+      "bytes": 46911,
+      "sha256": "1347867ad3cb00376700823d208ee3ab03fa89ab7cddc3f65118fb99c07d29e5"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 257,
+      "sha256": "647e306e4bac9ddcd9986420dfd0c65f1a632181dfac593feca8cf1f2a7d129d"
+    },
+    {
+      "path": "public/textures/earth-blue-marble-cloudless-4k.jpg",
+      "bytes": 1461877,
+      "sha256": "228deba2e4b600146bdcb6cfa359b8ead6aacc2b1c13550a29cd82824cfa1c01"
+    },
+    {
+      "path": "public/textures/earth-clouds-4k.png",
+      "bytes": 5033486,
+      "sha256": "35c46d8b29651a99e482401f33ed752bf4625837435fb3a89bb0032f72b88a3a"
+    },
+    {
+      "path": "scripts/generate-manifests.mjs",
+      "bytes": 2993,
+      "sha256": "c53ffea9899ad841a5743eabe542ef0e602571c3b0ebbda790bcc0618290492c"
+    },
+    {
+      "path": "scripts/verify-package.mjs",
+      "bytes": 2339,
+      "sha256": "8cb03b706fe294682b5f4a5b09731f7c3d021729c08d4c9da5caa8a61080832d"
+    },
+    {
+      "path": "src/app/main.js",
+      "bytes": 19095,
+      "sha256": "79eb4585472ed5bb0889467c8078759da4823888b65ccc6171fd7113c79b1b13"
+    },
+    {
+      "path": "src/atmosphere/atmosphere.js",
+      "bytes": 4117,
+      "sha256": "e651e355d111d0b50f64c8f5c95937b322e732f17d347ab2b4af4dc5eac42e29"
+    },
+    {
+      "path": "src/aurora/aurora.js",
+      "bytes": 10371,
+      "sha256": "8a8fb00a929c4b4a8270bc7cde539ec52e15975e057c37b736978b95e6f9f496"
+    },
+    {
+      "path": "src/clouds/cloud.js",
+      "bytes": 4791,
+      "sha256": "59c17b3038b56ab3344a3f42ef0fcbbcb6cbcd35eec65f458cadc108cdbd8b5b"
+    },
+    {
+      "path": "src/core/camera-navigation.js",
+      "bytes": 7312,
+      "sha256": "6d03fde59fe96bcb9fe1dba7705ce564ca72ae09fa25bb5c3eb79e1a491bbad0"
+    },
+    {
+      "path": "src/core/stars.js",
+      "bytes": 6558,
+      "sha256": "dd2f8a496dc8c2a06c2728acafadb1a050e5916d84d5548a541b504b1fb1de39"
+    },
+    {
+      "path": "src/dataset/photo-dataset-provider.js",
+      "bytes": 1343,
+      "sha256": "82049c4ffb28a5369c3a67a836d2457a9ff1f563414ee3f5e904fd552c58a683"
+    },
+    {
+      "path": "src/earth/civilization-boundaries.js",
+      "bytes": 2617,
+      "sha256": "948b7b3c560d47d0f9ec8e729022607bafcbae48930a1942c3d9f5c47330b249"
+    },
+    {
+      "path": "src/earth/civilization-lights.js",
+      "bytes": 10427,
+      "sha256": "b3c13d1940a6a6b7460028686763e54cfbca68a5cf9cb041a88d2dc8561c9a3d"
+    },
+    {
+      "path": "src/earth/earth.js",
+      "bytes": 18796,
+      "sha256": "7df0d2e16aa819140c5dcd8a9735ab1933d42fcf25898cc88659896e913e26e1"
+    },
+    {
+      "path": "src/earth/landscape.js",
+      "bytes": 2294,
+      "sha256": "094d9821505e6002a9d02bddd1e8ec0dbb56f11907c3d457574c577830136c45"
+    },
+    {
+      "path": "src/earth/ocean.js",
+      "bytes": 865,
+      "sha256": "340ca67f90af52eab59de1281e38129bea169b13169bb691c642e87db25eaac4"
+    },
+    {
+      "path": "src/earth/world-contract.js",
+      "bytes": 941,
+      "sha256": "2c16ac817b12c973710706b5352b7ad60a320d3ff51be40ad7f223af97dce693"
+    },
+    {
+      "path": "src/photos/photo-data-contract.js",
+      "bytes": 2104,
+      "sha256": "2cbc189e9d511a47f8f29fd124d658719cb164fa0fa14f1c1514177315322991"
+    },
+    {
+      "path": "src/photos/place-catalog.js",
+      "bytes": 28336,
+      "sha256": "a082aa8f1796feb741351853dfd219d341998d4d24fe9134cdd713bf74f9904f"
+    },
+    {
+      "path": "src/styles/style.css",
+      "bytes": 4186,
+      "sha256": "cef2bba19d52c5d68fd5434d317fdb5d18d5ed4a129024c6d1619fa7135e2151"
+    },
+    {
+      "path": "tests/photo-dataset.test.mjs",
+      "bytes": 1151,
+      "sha256": "404c6b9758d39b15ff956335c7d57d1fc1f4602e522319f65894028780509c62"
+    },
+    {
+      "path": "tests/runtime-contract.test.mjs",
+      "bytes": 1238,
+      "sha256": "b0d88675a466fc19c5d0c244451e1fdd84688824480d3537cbf5437ada720929"
+    },
+    {
+      "path": "vite.config.js",
+      "bytes": 161,
+      "sha256": "4079b50a20b6c636f3d473ecbba983877babe96a2860a4b0534c6443252d7a59"
+    }
+  ]
+}

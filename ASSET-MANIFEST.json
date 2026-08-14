@@ -1,0 +1,157 @@
+{
+  "schema": "world-earth-asset-manifest-v1",
+  "generatedAt": "2026-08-14T04:22:54.385Z",
+  "count": 30,
+  "assets": [
+    {
+      "path": "public/data/aurora-volumetric-v5/historical-event.json",
+      "bytes": 64079,
+      "sha256": "dbdc155bb1deabfc4ed7d1bc64ea28df9b7bf5db8ded3afa8bbded0127fff90f"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/black-marble/black-marble-2016-16384x8192-gray.jpg",
+      "bytes": 4317621,
+      "sha256": "b62c32bcde2e2156eb5f86b7562df452f3a499697d5b68efe05b6bb58feeeef0"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/black-marble/black-marble-2016-8192x4096-gray.jpg",
+      "bytes": 1459100,
+      "sha256": "fe3d5a4b1b21aa691041697b5188cb2699325a5d093247c5403e778fefcfa0bf"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/black-marble/black-marble-2016-fact-derived-network-5400.png",
+      "bytes": 646768,
+      "sha256": "396be82eabb3f9687b33a79c416c1aa50787462267e163b8e4ce5d764cfa1e10"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/eog-vnl-2020/eog-vnl-2020-median-masked-sqrt-10000x5000.png",
+      "bytes": 1728151,
+      "sha256": "3b7e0f9b9e123b46023c33f2181bec4562a8a6ac5225c07d29a9776b76d1aaa4"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/eog-vnl-2020/eog-vnl-2020-median-masked-sqrt-8192x4096.png",
+      "bytes": 1948148,
+      "sha256": "362fc1cd5415ba76bdb26ee2f0b8ddda14843c658fbd4a9a3a7649aa266466fc"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/eog-vnl-2020/source-manifest.json",
+      "bytes": 1124,
+      "sha256": "c1db553bb894c8d6c5a57e35b64f59fd782fa52ccb8301cc84daef91afedb9c4"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/grip4-global-road-density.png",
+      "bytes": 3918212,
+      "sha256": "39c3607822a3fc70bb21ae42a9e703c91d8eac9fecb90652a1d73ca8cf764d69"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/esa-worldcover-2021-v200-2048x1024.png",
+      "bytes": 204611,
+      "sha256": "02c8cbdcfeea4e1c823033bb463f0c0d813fa36b288b5073e7b0555bdf60006f"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/esa-worldcover-2021-v200-4096x2048.png",
+      "bytes": 673381,
+      "sha256": "769267b2224fec1e6ca9aded7bbca07f1d905ae81f5174df73d355c5544dcba0"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/gebco-2026-tid-runtime-manifest.json",
+      "bytes": 1749,
+      "sha256": "b1c63e885680e52da360e927220587db83a6504194d0a675502762e9d561ff78"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/nasa-topography-bathymetry-4096x2048.jpg",
+      "bytes": 1313095,
+      "sha256": "69e1ffee58af352ceccc54fded4d2e36e64a6edb9faa391d23a0eb1de1b250de"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/nasa-topography-bathymetry-8192x4096.jpg",
+      "bytes": 4481860,
+      "sha256": "7cb8f265ec9de03b64b250add27c451f42de9f437b78100d42c38a4046393047"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/natural-earth-land-mask-4096x2048.png",
+      "bytes": 87579,
+      "sha256": "484fe875ba51c1a2cccc7c11918e904f460114bce76e964cfefa7313418c1523"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/natural-earth-land-mask-8192x4096.png",
+      "bytes": 173172,
+      "sha256": "ce251bee4981d685d674428788c6a86de4c2e270c84dee5c719042cfb3ca016f"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/noaa-etopo-2022-terrain-2048x1024.png",
+      "bytes": 7568013,
+      "sha256": "eb9badc8ea7d73c9c14d897aecd612955d0c22a4f65f775b5716edc03a4cf462"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/noaa-etopo-2022-terrain-4096x2048.png",
+      "bytes": 23928560,
+      "sha256": "578c7a02b7b04b127e5ced7963c6720f7fc618a34673c4c9b7eccc26751d32a3"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/landscape-ocean/surface-albedo-2048x1024.jpg",
+      "bytes": 421025,
+      "sha256": "a250bb81a6a1889c41ebd9a740eb365a7d4ded67251d2b56d63f0475e15c3b20"
+    },
+    {
+      "path": "public/data/homepage-complete-expression-v1/ne_110m_admin_0_countries.geojson",
+      "bytes": 838726,
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f"
+    },
+    {
+      "path": "public/datasets/fixture-v1/dataset.json",
+      "bytes": 4533,
+      "sha256": "ea10e90f07a812a3407910daad916b8b99b9a0c4657b485daeaed7aa2c5c92e7"
+    },
+    {
+      "path": "public/datasets/fixture-v1/photos/asia-1.svg",
+      "bytes": 218,
+      "sha256": "332fabb54dc33f7c5050bdab7e6b6a980981c1f28e35b9c21a04bf432fafaedf"
+    },
+    {
+      "path": "public/datasets/fixture-v1/photos/asia-2.svg",
+      "bytes": 218,
+      "sha256": "b813af6aedd9987220328afeb83dfb3846c63eb13b0b5fadae47deb60fb745cc"
+    },
+    {
+      "path": "public/datasets/fixture-v1/photos/europe-1.svg",
+      "bytes": 218,
+      "sha256": "83b5e6403becd5a6336a9054b86e3d374febba5e649e7831ed663ab4d652e252"
+    },
+    {
+      "path": "public/datasets/fixture-v1/photos/europe-2.svg",
+      "bytes": 218,
+      "sha256": "b4fe035d32fcaa1ee0de0bd801485ba8296a149e273208f0efaf7a7b2d2d8529"
+    },
+    {
+      "path": "public/datasets/fixture-v1/photos/north-america-1.svg",
+      "bytes": 218,
+      "sha256": "f7bc259f57af0880b6e6c913660e8522743fcd96765bdac0ddd4d3ca5a69e758"
+    },
+    {
+      "path": "public/datasets/fixture-v1/photos/north-america-2.svg",
+      "bytes": 218,
+      "sha256": "e42aba19c139d912a60d87eeb41172ae1b324cc26f9a08593d78b7aec27d9c6b"
+    },
+    {
+      "path": "public/datasets/founder-homepage-v1/dataset.json",
+      "bytes": 241204,
+      "sha256": "306f6cef36edead01cf849827d94bbe64b4199e71e2ddd816ff7ee7dfb9a11d0"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 257,
+      "sha256": "647e306e4bac9ddcd9986420dfd0c65f1a632181dfac593feca8cf1f2a7d129d"
+    },
+    {
+      "path": "public/textures/earth-blue-marble-cloudless-4k.jpg",
+      "bytes": 1461877,
+      "sha256": "228deba2e4b600146bdcb6cfa359b8ead6aacc2b1c13550a29cd82824cfa1c01"
+    },
+    {
+      "path": "public/textures/earth-clouds-4k.png",
+      "bytes": 5033486,
+      "sha256": "35c46d8b29651a99e482401f33ed752bf4625837435fb3a89bb0032f72b88a3a"
+    }
+  ]
+}

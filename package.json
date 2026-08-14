@@ -1,0 +1,16 @@
+{
+  "name": "world-earth-homepage-complete-v1",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "20.x" },
+  "scripts": {
+    "generate:manifests": "node scripts/generate-manifests.mjs",
+    "verify:package": "node scripts/verify-package.mjs",
+    "test": "node --test tests/*.test.mjs && npm run verify:package",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": { "three": "0.180.0" },
+  "devDependencies": { "vite": "7.3.6" }
+}
