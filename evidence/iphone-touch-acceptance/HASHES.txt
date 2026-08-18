@@ -1,0 +1,2 @@
+e247e3dabe7e7d18d40e66420a4b0d05881f08c7835615183b390b4ed02eeb26  src/core/camera-navigation.js
+aaba0fc2b6f07ce993aad65e4eebd94fcbfe7c09720d7458be8e7d3be31f5a01  tests/touch-contract.test.mjs

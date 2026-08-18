@@ -43,6 +43,7 @@ export function createCameraNavigation(camera, opts = {}) {
   let zoomVel = 0
   let dragging = false
   let last = { x: 0, y: 0, t: 0 }
+  let teardownAttached = null
 
   const clampEl = (e) => Math.max(cfg.minEl, Math.min(cfg.maxEl, e))
   const clampD = (d) => Math.max(effMin, Math.min(cfg.maxDistance, d))
@@ -76,17 +77,18 @@ export function createCameraNavigation(camera, opts = {}) {
     setFeel(preset) { const f = typeof preset === 'string' ? FEEL_PRESETS[preset] : preset; if (f) { feel = { ...feel, ...f }; cfg.damping = feel.damping } return { ...feel } },
     getFeel() { return { ...feel } },
     pointerDown(x, y, t) { dragging = true; vel.az = vel.el = 0; last = { x, y, t } },
-    pointerMove(x, y, t) {
+    pointerMove(x, y, t, sensitivityScale = 1) {
       if (!dragging) return
       const dx = x - last.x, dy = y - last.y
-      const daz = -dx * feel.dragSensitivity          // drag right -> world turns left (natural)
-      const del = -dy * feel.dragSensitivity
+      const daz = -dx * feel.dragSensitivity * sensitivityScale
+      const del = -dy * feel.dragSensitivity * sensitivityScale
       cur.az += daz; cur.el = clampEl(cur.el + del); place()
       const dt = Math.max((t - last.t) / 1000, 1e-3)
       vel.az = clampVel(daz / dt); vel.el = clampVel(del / dt)     // instantaneous angular velocity
       last = { x, y, t }
     },
     pointerUp() { dragging = false; vel.az = clampVel(vel.az * feel.releaseScale); vel.el = clampVel(vel.el * feel.releaseScale) },
+    pinch(scale) { dragging = false; vel.az = vel.el = zoomVel = 0; cur.d = clampD(cur.d / scale); tgt.d = cur.d; place() },
     wheel(delta) { zoomVel += delta * feel.wheelSensitivity * feel.zoomStep },   // accumulate zoom velocity
     // integrate feel by real dt (seconds); returns whether still moving
     tickFeel(dt) {
@@ -113,13 +115,49 @@ export function createCameraNavigation(camera, opts = {}) {
     },
     // attach real DOM pointer/wheel handlers to a canvas element
     attach(dom) {
-      const rect = () => dom.getBoundingClientRect()
-      dom.addEventListener('pointerdown', (e) => { dom.setPointerCapture && dom.setPointerCapture(e.pointerId); api.pointerDown(e.clientX, e.clientY, e.timeStamp) })
-      dom.addEventListener('pointermove', (e) => api.pointerMove(e.clientX, e.clientY, e.timeStamp))
-      window.addEventListener('pointerup', () => api.pointerUp())
-      dom.addEventListener('pointercancel', () => api.pointerUp())
-      window.addEventListener('blur', () => api.pointerUp())
-      dom.addEventListener('wheel', (e) => { e.preventDefault(); api.wheel(e.deltaY) }, { passive: false })
+      teardownAttached?.()
+      const pointers=new Map()
+      let pinchDistance=0
+      const distance=()=>{const [a,b]=[...pointers.values()];return a&&b?Math.hypot(a.x-b.x,a.y-b.y):0}
+      const onPointerDown = (e) => {
+        dom.setPointerCapture?.(e.pointerId);pointers.set(e.pointerId,{x:e.clientX,y:e.clientY,type:e.pointerType})
+        if(pointers.size===1)api.pointerDown(e.clientX,e.clientY,e.timeStamp)
+        else{api.pointerUp();pinchDistance=distance()}
+      }
+      const onPointerMove = (e) => {
+        if(!pointers.has(e.pointerId))return
+        pointers.set(e.pointerId,{x:e.clientX,y:e.clientY,type:e.pointerType})
+        if(pointers.size===2){const next=distance();if(pinchDistance>0&&next>0)api.pinch(next/pinchDistance);pinchDistance=next;return}
+        if(pointers.size===1)api.pointerMove(e.clientX,e.clientY,e.timeStamp,e.pointerType==='touch'?.62:1)
+      }
+      const end=(e)=>{
+        pointers.delete(e.pointerId);pinchDistance=0;api.pointerUp()
+        if(pointers.size===1){const p=[...pointers.values()][0];api.pointerDown(p.x,p.y,e.timeStamp)}
+      }
+      const onPointerLeave=(e)=>{
+        if((e.pointerType==='touch'||e.pointerType==='pen'||pointers.has(e.pointerId)))end(e)
+      }
+      const onBlur=()=>{pointers.clear();pinchDistance=0;api.pointerUp()}
+      const onWheel=(e)=>{ e.preventDefault(); api.wheel(e.deltaY) }
+      dom.addEventListener('pointerdown', onPointerDown)
+      dom.addEventListener('pointermove', onPointerMove)
+      window.addEventListener('pointerup', end)
+      dom.addEventListener('pointercancel', end)
+      dom.addEventListener('pointerleave', onPointerLeave)
+      window.addEventListener('blur', onBlur)
+      dom.addEventListener('wheel', onWheel, { passive: false })
+      teardownAttached=()=>{
+        dom.removeEventListener('pointerdown', onPointerDown)
+        dom.removeEventListener('pointermove', onPointerMove)
+        dom.removeEventListener('pointercancel', end)
+        dom.removeEventListener('pointerleave', onPointerLeave)
+        dom.removeEventListener('wheel', onWheel, { passive: false })
+        window.removeEventListener('pointerup', end)
+        window.removeEventListener('blur', onBlur)
+        if(teardownAttached===teardown)teardownAttached=null
+      }
+      const teardown=teardownAttached
+      return teardown
     },
   }
   api.applyImmediate()
